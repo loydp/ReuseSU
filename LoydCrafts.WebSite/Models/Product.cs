@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace LoydCrafts.WebSite.Models
+namespace ReuseSU.WebSite.Models
 {
     public class Product
     {

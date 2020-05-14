@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace LoydCrafts.WebSite
+namespace ReuseSU.WebSite
 {
     public class Startup
     {

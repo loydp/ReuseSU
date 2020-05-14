@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace LoydCrafts.WebSite
+namespace ReuseSU.WebSite
 {
     public class Program
     {
