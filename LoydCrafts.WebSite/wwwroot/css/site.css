@@ -4,8 +4,11 @@
     background-color: red;
 }
 
-
-
+.sidebar {
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+}
 
 
 
