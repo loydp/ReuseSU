@@ -20,6 +20,13 @@
     background-color: yellow;
 }
 
+.listing {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    margin-top: 20px;
+}
+
 
 .checked {
     color: orange;
