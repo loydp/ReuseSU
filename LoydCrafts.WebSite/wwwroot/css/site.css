@@ -15,7 +15,10 @@
     background-color: grey;
 }
 
-
+.sidebar-lower {
+    height: 10px;
+    background-color: yellow;
+}
 
 
 .checked {
