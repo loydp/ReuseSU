@@ -4,6 +4,15 @@
     background-color: red;
 }
 
+.utility-bar {
+    height: 100px;
+    background-color: floralwhite;
+    border: 1px solid #AA0000;
+    border-bottom: 1px solid #AA0000;
+    border-left: 1px solid #AA0000;
+    border-right: 1px solid #AA0000;
+}
+
 .sidebar {
     background-color: white;
     width: 280px;
