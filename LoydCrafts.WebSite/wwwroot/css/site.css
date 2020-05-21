@@ -23,16 +23,16 @@
 .sidebar-upper {
     height: 300px;
     background-color: floralwhite;
-    border: 1px solid #AA0000;
+    border-left: 1px solid #AA0000;
+    border-right: 1px solid #AA0000;
 }
 
 /*The bottom sidebar. Borders individually set so both the upper and the lower sidebar don't combine to form a 2px border between them.*/
 .sidebar-lower {
     height: 200px;
     background-color: floralwhite;
-    border-bottom: 1px solid #AA0000;
-    border-left: 1px solid #AA0000;
-    border-right: 1px solid #AA0000;
+    border: 1px solid #AA0000;
+
 }
 
 .listing {
