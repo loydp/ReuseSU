@@ -1,4 +1,7 @@
-﻿/* .reused-header is our custom built header for ReuseSU*/
+﻿.checkbox{
+}
+
+/* .reused-header is our custom built header for ReuseSU*/
 .reuse-header {
     height: 100px;
     background-color: red;
