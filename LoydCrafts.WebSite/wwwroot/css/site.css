@@ -47,7 +47,7 @@
 
 /*The bottom sidebar. Borders individually set so both the upper and the lower sidebar don't combine to form a 2px border between them.*/
 .sidebar-lower {
-    height: 200px;
+    height: 300px;
     background-color: floralwhite;
     border: 1px solid #AA0000;
 }
