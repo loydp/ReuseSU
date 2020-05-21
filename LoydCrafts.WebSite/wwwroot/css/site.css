@@ -76,6 +76,10 @@
     font-weight: bold;
 }
 
+.listing-item-text {
+    margin-left: 115px;
+}
+
 .checked {
     color: orange;
 }
