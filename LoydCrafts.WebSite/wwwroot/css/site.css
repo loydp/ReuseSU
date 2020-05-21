@@ -70,14 +70,16 @@
     background-color: lightgray;
 }
 
-.listing-item-title{
+.listing-item-title {
     margin-left: 115px;
     margin-top: 10px;
     font-weight: bold;
+    display: inline;
 }
 
-.listing-item-date-person{
+.listing-item-date-person {
     text-align: right;
+    display: inline;
 }
 
 .listing-item-text {
