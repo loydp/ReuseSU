@@ -76,6 +76,10 @@
     font-weight: bold;
 }
 
+.listing-item-date-person{
+    text-align: right;
+}
+
 .listing-item-text {
     margin-left: 115px;
 }
