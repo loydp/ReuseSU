@@ -10,7 +10,10 @@
     height: 500px;
 }
 
-
+.sidebar-upper {
+    height: 10px;
+    background-color: grey;
+}
 
 
 
