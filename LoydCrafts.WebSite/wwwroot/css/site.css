@@ -21,13 +21,14 @@
     background-color: yellow;
 }
 
-
-.listing-img {
+.listing {
     height: 100px;
-    width: 100px;
-    float: left;
-    background-color: magenta;
+    width: 200px;
+    float: right;
+    background-color: pink;
+    margin-top: 20px;
 }
+
 
 .checked {
     color: orange;
