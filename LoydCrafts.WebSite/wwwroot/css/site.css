@@ -1,4 +1,5 @@
 ﻿.checkbox{
+    margin-left: 20px;
 }
 
 /* .reused-header is our custom built header for ReuseSU*/
@@ -42,7 +43,6 @@
     height: 200px;
     background-color: floralwhite;
     border: 1px solid #AA0000;
-
 }
 
 .listing {
