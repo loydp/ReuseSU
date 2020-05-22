@@ -145,7 +145,8 @@
 }
 
 .listing {
-    height: 102px;
+    height: 112px;
+    padding: 5px;
     width: 850px;
     float: right;
     background-color: floralwhite;
