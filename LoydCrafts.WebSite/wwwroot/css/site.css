@@ -3,6 +3,7 @@
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    text-shadow: -1px 0 floralwhite, 0 1px floralwhite, 1px 0 floralwhite, 0 -1px floralwhite;
 }
 
 .header-css{
