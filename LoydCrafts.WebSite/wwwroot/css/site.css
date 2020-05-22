@@ -10,6 +10,7 @@
     height: 100px;
     display: inline-block;
     float: left;
+    margin-left: 58px;
 }
 
 .header-title {
