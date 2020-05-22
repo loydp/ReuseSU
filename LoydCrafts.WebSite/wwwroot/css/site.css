@@ -1,9 +1,17 @@
-﻿.header-title {
+﻿.header-image {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.header-title {
     font-size: 64px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-shadow: -1px 0 floralwhite, 0 1px floralwhite, 1px 0 floralwhite, 0 -1px floralwhite;
+    display: inline-block;
 }
 
 .header-css{
