@@ -138,7 +138,7 @@
 /*The bottom sidebar. Borders individually set so both the upper and the lower sidebar don't combine to form a 2px border between them.*/
 .sidebar-lower {
     height: 320px;
-    border: 1px solid #AA0000;
+    border: 1px solid #CCC;
 }
 
 .listing {
