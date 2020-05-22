@@ -42,12 +42,22 @@
 
 .new-post-plus {
     display: inline-block;
-    font-size: xx-large;
+    line-height: 40px;
+    font-size: 56px;
+    position: relative;
+    left: 9%;
+    top: 35%;
+    transform: translate(-50%, -50%);
 }
 
 .new-post-afterplus {
     display: inline-block;
+    line-height: 40px;
     font-size: x-large;
+    position: relative;
+    left: 25%;
+    top: 18%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -58,7 +68,6 @@
     width: 209px;
     height: 100%;
     text-align: center;
-    line-height: 50px;
     border-right: 1px solid #AA0000;
 }
 
