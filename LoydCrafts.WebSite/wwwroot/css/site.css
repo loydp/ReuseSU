@@ -2,7 +2,7 @@
 .reuse-header {
     height: 100px;
     background-color: #aa0000;
-    text-align: center;
+    
 }
 
 .header-image {
@@ -22,6 +22,12 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
+}
+
+.header-motto{
+    float: right;
+    font-style: italic;
+    text-align: right;
 }
 
 .header-css{
