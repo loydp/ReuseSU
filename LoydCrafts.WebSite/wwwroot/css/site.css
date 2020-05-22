@@ -1,4 +1,10 @@
-﻿.new-post-plus {
+﻿.header-css{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-post-plus {
     display: inline-block;
     font-size: xx-large;
 }
