@@ -1,16 +1,17 @@
 ﻿.new-post-plus {
     display: inline-block;
+    font-size: xx-large;
 }
 
 .new-post-afterplus {
     display: inline-block;
+    font-size: x-large;
 }
 
 
 .new-post {
     float: left;
     display: inline-block;
-    font-size: x-large;
     font-weight: bold;
     width: 209px;
     height: 100%;
