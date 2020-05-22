@@ -1,18 +1,26 @@
-﻿.search-bar{
+﻿.new-post {
+    float: left;
+    display: inline-block;
+}
+
+.search-bar {
     margin-top: 10px;
     margin-right: 10px;
     float: right;
+    display: inline-block;
 }
 
-.search-input{
-    float:right;
+.search-input {
+    float: right;
     margin-right: 10px;
     width: 665px;
+    display: inline-block;
 }
 
-.search-button{
-    float:right;
+.search-button {
+    float: right;
     margin-right: 10px;
+    display: inline-block;
 }
 
 .sort-by{
