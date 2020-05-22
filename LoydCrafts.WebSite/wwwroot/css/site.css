@@ -1,4 +1,10 @@
-﻿.header-image {
+﻿/* .reused-header is our custom built header for ReuseSU*/
+.reuse-header {
+    height: 100px;
+    background-color: #aa0000;
+}
+
+.header-image {
     width: 100px;
     height: 100px;
     display: inline-block;
@@ -76,12 +82,6 @@
 .checkbox{
     margin-left: 30px;
     margin-top: 5px;
-}
-
-/* .reused-header is our custom built header for ReuseSU*/
-.reuse-header {
-    height: 100px;
-    background-color: #aa0000;
 }
 
 .utility-bar {
