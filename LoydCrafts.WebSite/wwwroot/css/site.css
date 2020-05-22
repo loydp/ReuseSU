@@ -1,4 +1,11 @@
-﻿.header-css{
+﻿.header-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.header-css{
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
