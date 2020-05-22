@@ -1,4 +1,13 @@
-﻿.new-post {
+﻿.new-post-plus {
+    display: inline-block;
+}
+
+.new-post-afterplus {
+    display: inline-block;
+}
+
+
+.new-post {
     float: left;
     display: inline-block;
     font-size: x-large;
