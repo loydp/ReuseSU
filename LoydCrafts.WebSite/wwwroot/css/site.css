@@ -65,7 +65,7 @@
 /* .reused-header is our custom built header for ReuseSU*/
 .reuse-header {
     height: 100px;
-    background-color: red;
+    background-color: #aa0000;
 }
 
 .utility-bar {
