@@ -27,30 +27,30 @@
         </div>
 
         <!--
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-SURed border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">ReuseSU.WebSite</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-SURed border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">ReuseSU.WebSite</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-        -->
+        </nav>
+            -->
     </header>
 
     <div class="container">
-        
+
         <div class="utility-bar">
             <div class="new-post">
                 <div class="new-post-plus">
@@ -74,17 +74,19 @@
 
         <!-- A container for the sidebar information-->
         <div class="sidebar">
-            
+
             <div class="sidebar-upper">
 
                 <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
                 <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
                 <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button">Tutorial</button>
+                <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
+                    Tutorial
+                </button>
                 <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
 
             </div>
-            
+
             <div class="sidebar-lower">
 
                 <div class="lower-sidebar-text">Set defaults</div>
@@ -101,7 +103,7 @@
             </div>
 
         </div>
-        
+
         <main role="main" class="pb-3">
             <div class="listing">
                 <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
