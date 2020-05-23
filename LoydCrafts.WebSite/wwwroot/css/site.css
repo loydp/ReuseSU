@@ -184,6 +184,7 @@
 
 /* Create new post pages */
 .create-post {
+    border-radius: 40px;
     float: right;
     height: 700px;
     width: 825px;
@@ -197,7 +198,7 @@
 .create-post-title {
     display: inline-block;
     padding: 20px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
