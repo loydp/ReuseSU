@@ -138,6 +138,7 @@
 /*The bottom sidebar. Borders individually set so both the upper and the lower sidebar don't combine to form a 2px border between them.*/
 .sidebar-lower {
     border: 1px solid #CCC;
+    padding: 10px 0px;
 }
 
 .listing {
