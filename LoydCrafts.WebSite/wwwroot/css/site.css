@@ -182,6 +182,13 @@
     margin-left: 115px;
 }
 
+.create-post {
+    height: 700px;
+    width: 700px;
+    float: left;
+    background-color: lightgray;
+}
+
 
 
 /* Everything above this point added by ReuseSU prototype dev team */
