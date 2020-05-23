@@ -182,6 +182,7 @@
     margin-left: 115px;
 }
 
+/** Create new post pages */
 .create-post {
     float: right;
     height: 700px;
