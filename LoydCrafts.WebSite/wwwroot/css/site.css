@@ -182,7 +182,7 @@
     margin-left: 115px;
 }
 
-/** Create new post pages */
+/* Create new post pages */
 .create-post {
     float: right;
     height: 700px;
@@ -191,6 +191,13 @@
     margin-right: 50px;
     margin-top: 25px;
     background-color: lightgray;
+    text-align: center;
+}
+
+.create-post-title {
+    display: inline-block;
+    padding: 20px;
+    font-size: 40px;
 }
 
 
