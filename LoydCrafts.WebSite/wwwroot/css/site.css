@@ -201,6 +201,10 @@
     font-size: 35px;
 }
 
+.create-post-component {
+
+}
+
 .create-post-description {
     width: 75%;
     height: 150px;
@@ -213,6 +217,8 @@
     color: #878787;
     resize: none;
 }
+
+
 
 
 
