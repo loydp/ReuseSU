@@ -183,9 +183,12 @@
 }
 
 .create-post {
+    float: right;
     height: 700px;
-    width: 700px;
-    float: left;
+    width: 825px;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 25px;
     background-color: lightgray;
 }
 
