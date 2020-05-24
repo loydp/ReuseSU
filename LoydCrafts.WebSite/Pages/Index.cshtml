@@ -4,6 +4,15 @@
     ViewData["Title"] = "Home page";
 }
 
+<!-- JS copy/pasted from https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php -->
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#tutorial-modal-1").modal('show');
+    });
+</script>
+
 <div id="tutorial-modal-1" class="modal fade in"></div>
 
 
@@ -15,11 +24,9 @@
 </div>
 
 -->
-
 <!--
     <a class="nav-link text-dark" asp-area="" asp-page="/ItemReadView"> <img src="~/img/Danial_1_homepage_wEvilPost.jpg" /></a>
 -->
-
 <!--
     <div class="card-columns">
         @foreach (var product in Model.Products)
