@@ -195,7 +195,7 @@
     text-align: center;
 }
 
-.creat-post-header {
+.create-post-header {
     font-size: 40px;
     text-align: center;
     font-weight: bold;
@@ -203,7 +203,9 @@
 
 .create-post-subheader {
     font-size: 25px;
-    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .create-post-title {
