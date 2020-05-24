@@ -218,7 +218,7 @@
     margin: 25px 25px 25px 25px;
     width: 350px;
     height: 600px;
-    color: aquamarine;
+    background-color: aquamarine;
     float: left;
 }
 
@@ -226,7 +226,7 @@
     margin: 25px 25px 25px 25px;
     width: 350px;
     height: 600px;
-    color: cadetblue;
+    background-color: cadetblue;
     float: left;
 }
 
