@@ -183,18 +183,6 @@
 }
 
 /* Create new post pages */
-.create-post {
-    border-radius: 40px;
-    float: right;
-    height: 700px;
-    width: 825px;
-    margin-left: 250px;
-    margin-right: 50px;
-    margin-top: 25px;
-    background-color: lightgray;
-    text-align: center;
-}
-
 .create-post-header {
     font-size: 40px;
     text-align: center;
@@ -208,11 +196,40 @@
     margin: 0 auto;
 }
 
+.create-post-body {
+    border-radius: 40px;
+    float: right;
+    height: 700px;
+    width: 825px;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 25px;
+    background-color: lightgray;
+    text-align: center;
+}
+
 .create-post-title {
     display: inline-block;
     padding: 20px;
     font-size: 35px;
 }
+
+.create-post-photo-section {
+    margin: 25px 25px 25px 25px;
+    width: 350px;
+    height: 600px;
+    color: aquamarine;
+    float: left;
+}
+
+.create-post-text-section {
+    margin: 25px 25px 25px 25px;
+    width: 350px;
+    height: 600px;
+    color: cadetblue;
+    float: left;
+}
+
 
 .create-post-component {
     font-size: 20px;
