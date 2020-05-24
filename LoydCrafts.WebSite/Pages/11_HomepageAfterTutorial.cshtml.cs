@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ReuseSU.website.Pages
 {
-    public class WelcomeModel : PageModel
+    public class HomepageAfterTutorialModel : PageModel
     {
         public void OnGet()
         {
