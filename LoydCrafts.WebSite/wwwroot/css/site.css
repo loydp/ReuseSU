@@ -199,7 +199,7 @@
 .create-post-body {
     border-radius: 40px;
     float: right;
-    height: 700px;
+    height: 800px;
     width: 825px;
     margin-left: 250px;
     margin-right: 50px;
@@ -209,6 +209,8 @@
 }
 
 .create-post-title {
+    height: 50px;
+    width: 825px;
     display: inline-block;
     padding: 20px;
     font-size: 35px;
