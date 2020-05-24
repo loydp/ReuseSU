@@ -206,19 +206,12 @@
     font-weight: bold;
 }
 
-.create-post-textbox {
-    width: 75%;
-    height: 150px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 15px;
-    text-align: left;
-    background-color: #f8f8f8;
+input[type="text"], textarea {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial;
     font-size: 16px;
-    resize: none;
 }
-
 
 
 
