@@ -69,22 +69,23 @@
     margin-left: auto;
 }
 
-.table-row{
+.reusesu-table-row {
     display: table-row;
     width: auto;
     clear: both;
+    padding-top: 150px;
 }
 
 .modal-body-img {
     text-align: left;
-
-    float:left;
+    padding-top: 15px;
+    float: left;
     margin-right: 10px;
     display: table-column;
 }
 
 .modal-body-text {
- 
+    padding-top: 15px;
     font-size: 20px;
     float: left;
     display: table-column;
