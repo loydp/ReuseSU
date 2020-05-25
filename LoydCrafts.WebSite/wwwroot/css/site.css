@@ -367,8 +367,14 @@
     font-weight: bold;
     background-color: aquamarine;
     float: left;
+    text-align: center;
+    display: inline-block;
 }
 
+#create-post-image {
+    margin-top: 100px;
+    vertical-align: middle;
+}
 .create-post-text-section {
     margin: 25px 25px 25px 25px;
     width: 350px;
