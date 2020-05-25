@@ -252,6 +252,11 @@
     margin-top: 20px;
 }
 
+.full-listing-image {
+    margin: 10px auto 10px;
+    display: block;
+}
+
 .listing-img {
     height: 100px;
     width: 100px;
