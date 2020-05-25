@@ -244,12 +244,17 @@
 .full-listing {
     border-radius: 10px;
     height: 600px;
-    padding: 10px;
     width: 850px;
     float: right;
     background-color: #f7f7f7;
     border: 1px solid #CCC;
     margin-top: 20px;
+}
+
+.full-listing-header {
+    font-size: 9pt;
+    margin-bottom: 5px;
+    padding: 7px 0px 7px 20px;
 }
 
 .full-listing-image {
