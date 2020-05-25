@@ -102,6 +102,12 @@
     margin-right: auto;
 }
 
+.modal-what{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
 .new-post-plus {
     display: inline-block;
     line-height: 40px;
