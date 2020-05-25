@@ -267,6 +267,11 @@
     display: block;
 }
 
+.listing-body-text {
+    padding: 10px;
+}
+
+
 .listing-img {
     height: 100px;
     width: 100px;
