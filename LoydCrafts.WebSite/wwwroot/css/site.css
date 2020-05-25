@@ -59,6 +59,10 @@
     font-size: 24px;
 }
 
+.modal-body-items{
+    text-align: center;
+}
+
 .reusese-center {
     display: block;
     margin-left: auto;
