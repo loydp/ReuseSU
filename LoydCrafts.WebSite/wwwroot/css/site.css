@@ -363,6 +363,8 @@
     margin: 25px 25px 25px 25px;
     width: 350px;
     height: 600px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: aquamarine;
     float: left;
 }
