@@ -59,8 +59,18 @@
     font-size: 24px;
 }
 
+.modal-body-img {
+    text-align: left;
+    display: inline-block;
+}
+
+.modal-body-text {
+    display: inline-block;
+}
+
 .modal-body-items{
     text-align: center;
+    text-size: 20px;
 }
 
 .reusese-center {
