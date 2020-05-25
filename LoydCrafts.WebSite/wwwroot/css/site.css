@@ -129,6 +129,23 @@
     background-color: #EEE;
 }
 
+.checkbox-modal-area {
+    margin-left: 50px;
+}
+
+.agreement-text{
+    display: inline-block;
+}
+
+.checkbox-modal {
+    display: inline-block;
+    float: left;
+    transform: scale(2, 2);
+    width: 25px;
+    vertical-align: center;
+    margin-top: 10px;
+}
+
 .new-post-plus {
     display: inline-block;
     line-height: 40px;

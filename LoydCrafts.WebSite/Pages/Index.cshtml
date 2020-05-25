@@ -98,7 +98,9 @@
 
                 <br /><br />
 
-                <a class="nav-link text-dark" asp-area="" asp-page="/02_UserAgreement"><img src="~/img/tut1_welcome_sliced.png" class="reusese-center" /></a>
+                <!--
+                    <a class="nav-link text-dark" asp-area="" asp-page="/02_UserAgreement"><img src="~/img/tut1_welcome_sliced.png" class="reusese-center" /></a>
+                 -->
             </div>
             <div class="modal-footer">
                 <p class="modaltext">Thigns</p>
@@ -109,13 +111,53 @@
 </div>
 
 <div id="tutorial-modal-2" class="modal fade in">
-    <div class="modal-dialog modal-lg" style="margin: 0px 200px; width: 300px; height: 300px; border-radius: 20px; background-color: #d7d7d7;">
-        <div class="modal-content">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
             <div class="modal-header">
             </div>
-            <h3 class="modal-title boldfont">Welcome</h3>
+            <h2 class="boldfont reusesu-mod-title" style="font-size: xx-large;">Great!  We'll guide you through that in a moment.</h2>
+            <div class="reuse-mod-body">
+                First, here are a few important things to know<br>
+                before you proceed:
+            </div>
             <div class="modal-body">
-                <a class="nav-link text-dark" asp-area="" asp-page="/02_UserAgreement"><img src="~/img/tut1_welcome_sliced.png" /></a>
+                <div class="modal-body-items">
+
+                    <div class="reusesu-table-row">
+                        <div class="modal-body-text" style="width: 600px;">
+                            <ul>
+                                <li><strong>Test</strong> test</li>
+                                <br />
+                                <li><strong>Test Test Test</strong> Lorem Impsum lorem ipsum</li>
+                                <br />
+                                <li><strong>Test test</strong> Test Test Lorem Ipsum</li>
+                                <br />
+                                <li>Test test <strong>Important important text</strong></li>
+                                <br />
+                                <li>Test test <strong>More Important important text</strong> and here's some more unimportant text that will be long</li>
+                                <br />
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="checkbox-modal-area">
+                        <div class="checkbox-modal">
+                            <input type="checkbox" />
+                        </div>
+                        <div class="agreement-text">
+                            <p>
+                                By checking this box, I accept personal responsibility for what I<br />
+                                post and acknowledge that SU is not liable for how this site is used.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="modal-buttons" style="margin: 0px;">
+                        <div class="modal-button-container">
+                            <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button">Next</button><br />
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <div class="modal-footer">
                 <p class="modaltext">Thigns</p>
