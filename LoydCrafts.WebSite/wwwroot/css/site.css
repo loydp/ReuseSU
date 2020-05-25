@@ -108,6 +108,13 @@
     margin-top: 30px;
 }
 
+.modal-button {
+    width: 150px;
+    margin: 5px 10px;
+    background-color: #EEE;
+}
+
+
 .new-post-plus {
     display: inline-block;
     line-height: 40px;
