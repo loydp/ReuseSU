@@ -8,7 +8,7 @@
     <div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 10px;">
         <p class="lower-sidebar-text">for this post</p>
         <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
-        <button type="button" class="btn btn-outline-dark sidebar-upper-button">Flag</button>
+        <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
         <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
     </div>
 
@@ -37,6 +37,30 @@
 <h1>ItemReadView</h1>
 <a class="nav-link text-dark" asp-area="" asp-page="/13_AboutFlagging"> About Flagging </a>
 <a class="nav-link text-dark" asp-area="" asp-page="/14_FlagPost"> Flag Post </a>
+
+
+
+<div class="modal fade right" id="flagging-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-side modal-top-right" role="document">
+
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Questions about flagging?</h2>
+            </div>
+            <div class="modal-body">
+                <p><b>What is flagging:</b> Flagging something will remove the item from view as soon as you flag it.</p>
+                <p><b>When to flag:</b> You should flag items if and only if it does not adhere to the <em>posting policy</em>.</p>
+                <p><b>Flagging is anonymous:</b> The poster will not know who flagged their item. Only site admins can.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Thanks</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
