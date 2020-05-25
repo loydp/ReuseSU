@@ -40,6 +40,10 @@
     margin-right: auto;
 }
 
+.center-css{
+    text-align: center;
+}
+
 .reusese-center {
     display: block;
     margin-left: auto;
