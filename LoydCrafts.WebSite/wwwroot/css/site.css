@@ -108,12 +108,23 @@
     margin-top: 30px;
 }
 
+.modal-buttons{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-button-container {
+    display: inline-block;
+}
+
 .modal-button {
     width: 150px;
     margin: 5px 10px;
     background-color: #EEE;
 }
-
 
 .new-post-plus {
     display: inline-block;
