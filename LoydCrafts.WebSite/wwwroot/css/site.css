@@ -143,6 +143,7 @@
     transform: scale(2, 2);
     width: 25px;
     vertical-align: center;
+    margin-top: 10px;
 }
 
 .new-post-plus {
