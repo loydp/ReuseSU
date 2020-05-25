@@ -255,7 +255,8 @@
     font-size: 9pt;
     margin-bottom: 5px;
     padding: 7px 0px 7px 20px;
-
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #CCC;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
