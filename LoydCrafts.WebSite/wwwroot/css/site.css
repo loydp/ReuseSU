@@ -60,20 +60,35 @@
     font-weight: 500;
 }
 
+.modal-body-items {
+    text-align: center;
+    text-size: 20px;
+    display: table;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.table-row{
+    display: table-row;
+    width: auto;
+    clear: both;
+}
+
 .modal-body-img {
     text-align: left;
-    display: inline-block;
+
+    float:left;
     margin-right: 10px;
+    display: table-column;
 }
 
 .modal-body-text {
-    display: inline-block;
+ 
     font-size: 20px;
-}
-
-.modal-body-items{
-    text-align: center;
-    text-size: 20px;
+    float: left;
+    display: table-column;
+    width: auto;
 }
 
 .reusese-center {
