@@ -142,6 +142,7 @@
     float: left;
     transform: scale(2, 2);
     width: 25px;
+    vertical-align: center;
 }
 
 .new-post-plus {
