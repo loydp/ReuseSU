@@ -41,8 +41,15 @@
 }
 
 .reusesu-mod-title{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
+    text-align: center;
+}
+
+.modal-sub-title {
+    margin-top: 5px;
+    font-size: 20px;
+    font-style: italic;
     text-align: center;
 }
 
