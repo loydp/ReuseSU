@@ -54,7 +54,10 @@
 }
 
 .reuse-mod-body{
-
+    margin-tip: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .reusese-center {
