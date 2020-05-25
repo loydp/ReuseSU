@@ -258,6 +258,31 @@
     margin-top: 20px;
 }
 
+.full-listing {
+    border-radius: 10px;
+    height: 600px;
+    width: 850px;
+    float: right;
+    background-color: #f7f7f7;
+    border: 1px solid #CCC;
+    margin-top: 20px;
+}
+
+.full-listing-header {
+    font-size: 9pt;
+    height: 50px;
+    margin-bottom: 5px;
+    padding: 7px 0px 7px 20px;
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #CCC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.full-listing-image {
+    margin: 10px auto 10px;
+    display: block;
+}
 
 .listing-img {
     height: 100px;
