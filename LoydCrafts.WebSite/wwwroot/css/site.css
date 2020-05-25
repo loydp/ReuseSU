@@ -110,6 +110,7 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 
 .modal-button-container {
@@ -117,7 +118,7 @@
 }
 
 .modal-button {
-    width: 150px;
+    width: 200px;
     margin: 5px 10px;
     background-color: #EEE;
 }
