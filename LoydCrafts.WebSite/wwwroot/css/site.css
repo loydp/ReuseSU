@@ -79,10 +79,11 @@
 }
 
 .modal-body-img {
-    text-align: left;
+    text-align: right;
     padding-top: 15px;
     float: left;
     margin-right: 20px;
+    width: 60px;
     display: table-column;
     border: 1px solid #AA0000;
 }
