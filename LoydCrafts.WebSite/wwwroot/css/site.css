@@ -247,6 +247,14 @@
     padding: 10px 0px;
 }
 
+.help-text {
+    font-size: 9pt;
+    margin-left: 10px; 
+    text-decoration: underline; 
+    font-style: italic; 
+    color: #555;
+}
+
 .listing {
     border-radius: 10px;
     height: 122px;
