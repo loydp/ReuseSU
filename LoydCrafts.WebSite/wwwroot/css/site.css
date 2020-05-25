@@ -141,6 +141,7 @@
     display: inline-block;
     float: left;
     transform: scale(2, 2);
+    width: 25px;
 }
 
 .new-post-plus {
