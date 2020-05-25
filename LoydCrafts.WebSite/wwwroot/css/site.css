@@ -62,6 +62,7 @@
 .modal-body-img {
     text-align: left;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .modal-body-text {
