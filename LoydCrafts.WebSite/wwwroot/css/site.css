@@ -152,6 +152,11 @@
     background-color: #EEE;
 }
 
+.modal-link{
+    text-align: center;
+    text-decoration: underline;
+}
+
 .checkbox-modal-area {
     margin-left: 50px;
 }
