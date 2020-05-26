@@ -106,7 +106,33 @@
             </div>
             <div class="modal-footer">
                 <!-- Next Button-->
-                <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/06_NewPostCategorySelection">
+                <a class="btn btn-outline-dark sidebar-upper-button" data-dismiss="modal" data-toggle="modal" data-target="#newpost2-modal">
+                    Next
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="newpost2-modal" class="modal fade in">
+    <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title boldfont">Was this item purchased with SU funds?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="create-post-title" style="margin-bottom: 80px">Which category best describes your item?</div>
+
+                <div class="create-post-checkbox"><input type="checkbox" checked />&nbsp;Furniture</div>
+                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Decor</div>
+                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Books</div>
+                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Electronics</div>
+                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Misc</div>
+            </div>
+            <div class="modal-footer">
+                <!-- Next Button-->
+                <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/07_NewPostItemSpecifics">
                     Next
                 </a>
             </div>
