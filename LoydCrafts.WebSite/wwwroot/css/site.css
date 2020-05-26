@@ -63,14 +63,14 @@
 }
 
 .reuse-mod-body{
-    margin-tip: 10px;
+    margin-top: 10px;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
 }
 
 .modal-body-items {
-    text-size: 20px;
+    font-size: 20px;
     display: table;
     width: auto;
     margin-right: auto;
