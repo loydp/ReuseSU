@@ -22,37 +22,13 @@
                 ReuseSU
             </div>
             <div class="header-motto">
-                Simple, sustainable sharing 
+                Simple, sustainable sharing
                 <button type="button" class="btn btn-outline-dark header-logout">Logout</button>
             </div>
         </div>
 
-        <!--
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-SURed border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ReuseSU.WebSite</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-            -->
     </header>
-
-    <!-- Contains everything below the header, except modal divs -->
     <div class="container">
-
         <!-- Contains the New Post and Search functionality -->
         <div class="utility-bar">
             <div class="new-post">
@@ -74,71 +50,9 @@
                 <input type="text" placeholder="Search.." name="search" class="search-input">
             </div>
         </div>
-
-        <!-- A container for the sidebar information-->
-        <div class="sidebar">
-
-            <!-- The upper box of the left sidebar -->
-            <div class="sidebar-upper">
-
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
-                    Tutorial
-                </button>
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
-
-            </div>
-
-            <!-- Lower box of the left sidebar -->
-            <div class="sidebar-lower">
-
-                <div class="lower-sidebar-text">Set defaults</div>
-                <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-                <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-
-                <div class="lower-sidebar-text">Filter by Category</div>
-                <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-                <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-                <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-                <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-                <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-                <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-            </div>
-
-        </div>
-
-        <!-- The main area, for looking at item listings/posts -->
-        <main role="main" class="pb-3">
-            <div class="listing">
-                <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
-                <div class="listing-item-title" style="float:left">Apple Earbuds 1</div>
-                <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-                <div class="listing-item-text">1 Great earbuds, only $75!</div>
-            </div>
-            <div class="listing">
-                <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
-                <div class="listing-item-title" style="float:left">Apple Earbuds 2</div>
-                <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-                <div class="listing-item-text">2 Great earbuds, only $75!</div>
-            </div>
-            <div class="listing">
-                <div class="listing-img"><img src="~/img/AppleEarbudsSmall.jpg"></div>
-                <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">Apple Earbuds 3</></a>
-                <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-                <div class="listing-item-text">3 Great earbuds, only $75!</div>
-            </div>
-            <div class="listing">
-                <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
-                <div class="listing-item-title" style="float:left">Apple Earbuds 4</div>
-                <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-                <div class="listing-item-text">4 Great earbuds, only $75!</div>
-            </div>
-            @RenderBody()
-        </main>
     </div>
 
+    @RenderBody()
     <!-- This is the footer, usually the area for copyright and maybe a little navigation -->
     <footer class="border-top footer text-muted">
         <div class="container">
