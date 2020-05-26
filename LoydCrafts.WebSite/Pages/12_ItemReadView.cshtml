@@ -26,89 +26,38 @@
 
         </div>
 
-        <!-- Lower box of the left sidebar -->
-        <div class="sidebar-lower">
-
-            <div class="lower-sidebar-text">Set defaults</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-
-            <div class="lower-sidebar-text">Filter by Category</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
-            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+        <!-- style on the sidebar-lower div is temporary-->
+        <div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 0px;">
+            <p class="lower-sidebar-text">for this post</p>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
+            <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
         </div>
 
     </div>
 
-    <!-- The main area, for looking at item listings/posts -->
-    <main role="main" class="pb-3">
-        <div class="listing">
-            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
-            <div class="listing-item-title" style="float:left">Apple Earbuds 1</div>
-            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-            <div class="listing-item-text">1 Great earbuds, only $75!</div>
-        </div>
-        <div class="listing">
-            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
-            <div class="listing-item-title" style="float:left">Apple Earbuds 2</div>
-            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-            <div class="listing-item-text">2 Great earbuds, only $75!</div>
-        </div>
-        <div class="listing">
-            <div class="listing-img"><img src="~/img/AppleEarbudsSmall.jpg"></div>
-            <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">Apple Earbuds 3</></a>
-            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-            <div class="listing-item-text">3 Great earbuds, only $75!</div>
-        </div>
-        <div class="listing">
-            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
-            <div class="listing-item-title" style="float:left">Apple Earbuds 4</div>
-            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
-            <div class="listing-item-text">4 Great earbuds, only $75!</div>
+    <div class="full-listing">
+
+        <div class="full-listing-header">
+            <h4 style="float: left;">Factory Fresh Apple Earbuds, get them quick!</h4>
+            <p style="float: right; margin-top: 0px" class="listing-item-date-person">January 23, 2020<br>by Darren Herstad</p>
         </div>
 
-    </main>
+        <div class="full-listing-body">
+            <p class="listing-body-text">Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! Never before worn (by a human) earbuds are exactly what you need this summer to liven up your day.</p>
+        </div>
+
+        <div class="full-listing-gallery">
+            <img src="~/img/Earbuds_300px.jpg" class="full-listing-image" />
+        </div>
+
+        <div class="full-listing-footer">
+
+        </div>
+
+    </div>
 </div>
 
-
-
-<!-- style on the sidebar-lower div is temporary-->
-<div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 10px;">
-    <p class="lower-sidebar-text">for this post</p>
-    <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
-    <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
-    <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
-</div>
-
-<div class="full-listing">
-
-    <div class="full-listing-header">
-        <h4 style="float: left;">Factory Fresh Apple Earbuds, get them quick!</h4>
-        <p style="float: right; margin-top: 0px" class="listing-item-date-person">January 23, 2020<br>by Darren Herstad</p>
-    </div>
-
-    <div class="full-listing-body">
-        <p class="listing-body-text">Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! Never before worn (by a human) earbuds are exactly what you need this summer to liven up your day.</p>
-    </div>
-
-    <div class="full-listing-gallery">
-        <img src="~/img/Earbuds_300px.jpg" class="full-listing-image" />
-    </div>
-
-    <div class="full-listing-footer">
-
-    </div>
-
-</div>
-
-<img src="~/img/Danial_2_EvilPost.jpg" />
-<h1>ItemReadView</h1>
-<a class="nav-link text-dark" asp-area="" asp-page="/13_AboutFlagging"> About Flagging </a>
-<a class="nav-link text-dark" asp-area="" asp-page="/14_FlagPost"> Flag Post </a>
 
 <!-- FLAGGING MODAL -->
 <div class="modal fade right" id="flagging-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
