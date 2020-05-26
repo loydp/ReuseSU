@@ -132,10 +132,60 @@
             </div>
             <div class="modal-footer">
                 <!-- Next Button-->
-                <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/07_NewPostItemSpecifics">
+                <a class="btn btn-outline-dark sidebar-upper-button" data-dismiss="modal" data-toggle="modal" data-target="#newpost3-modal">
                     Next
                 </a>
             </div>
         </div>
     </div>
 </div>
+
+<div id="newpost3-modal" class="modal fade in">
+    <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
+        <div class="modal-content" style="width: 850px;">
+            <div class="modal-header">
+                <h3 class="modal-title boldfont">Item Specifics</h3> <br />
+                <h4>Make a new post: 3 of 3</h4>
+            </div>
+            <div class="modal-body">
+                <div class="create-post-photo-section">
+                    Add Photos
+                    <img id="create-post-image" src="~/img/Herman-Miller-Aeron-Chair-Smaller.jpeg" />
+                    <button type="button" class="btn btn-outline-dark sidebar-upper-button" style="margin-top: 150px;">Upload Photo(s)</button><br />
+                </div>
+                <div class="create-post-text-section">
+                    <!-- Title section-->
+                    <div class="create-post-component">
+                        Title*
+                        <form action="#" method="post">
+                            <textarea name="textarea" cols="40" rows="2">Herman Miller Aeron Desk Chair</textarea>
+                        </form>
+                    </div>
+                    <!-- Description section-->
+                    <div class="create-post-component">
+                        Description*
+                        <form action="#" method="post">
+                            <textarea name="textarea" cols="40" rows="10">Herman Miller Aeron desk chair, black, like new condition.  I've only had it a few months but it's too big for my shared office.  Dimensions are approximately 17 x 24 x 42".
+                        </textarea>
+                        </form>
+                    </div>
+                    <!-- Logistics section -->
+                    <div class="create-post-component">
+                        Logistics
+                        <form action="#" method="post">
+                            <textarea name="textarea" cols="40" rows="5">My office is PIGT 523.  I have a new chair coming on 5/12 and would like to have it gone by then, should be easy to roll.  Email me to coordinate timing.​</textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <!-- Next Button-->
+                <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/08_TutorialAfterPosting">
+                    Publish Post
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
