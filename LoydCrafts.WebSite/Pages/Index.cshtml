@@ -221,7 +221,7 @@
                     </div>
                     <div class="checkbox-modal-area">
                         <div class="checkbox-modal">
-                            <input type="checkbox" />
+                            <input type="checkbox" onchange="document.getElementById('agree-button').disabled = !this.checked;" />
                         </div>
                         <div class="agreement-text">
                             <p>
@@ -233,7 +233,10 @@
 
                     <div class="modal-buttons" style="margin: 0px;">
                         <div class="modal-button-container">
-                            <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button">Next</button><br />
+                            <button type="button" id="agree-button"style="font-size:x-large;" class="btn btn-outline-dark modal-button" disabled>
+                                Agree
+                            </button>
+                            <br />
                         </div>
                     </div>
 
