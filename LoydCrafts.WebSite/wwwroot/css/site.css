@@ -1,13 +1,12 @@
 ﻿/* .reused-header is our custom built header for ReuseSU*/
 .reuse-header {
-    height: 100px;
+    height: 65px;
     background-color: #aa0000;
-    
 }
 
 .header-image {
     width: 100px;
-    height: 100px;
+    height: 65px;
     display: inline-block;
     float: left;
     margin-left: 58px;
