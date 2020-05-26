@@ -66,7 +66,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Confirm Flagging</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#flagging-confirmation">Confirm Flagging</button>
             </div>
         </div>
     </div>
@@ -97,3 +97,24 @@
 </div>
 
 
+<div class="modal fade right" id="flagging-confirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-side modal-top-right" role="document">
+
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Questions about flagging?</h2>
+            </div>
+            <div class="modal-body">
+                <p><b>What is flagging:</b> Flagging something will remove the item from view as soon as you flag it.</p>
+                <p><b>When to flag:</b> You should flag items if and only if it does not adhere to the <em>posting policy</em>.</p>
+                <p><b>Flagging is anonymous:</b> The poster will not know who flagged their item. Only site admins can.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Thanks</button>
+            </div>
+        </div>
+    </div>
+</div>
