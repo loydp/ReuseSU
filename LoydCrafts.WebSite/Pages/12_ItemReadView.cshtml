@@ -8,11 +8,8 @@
     <div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 10px;">
         <p class="lower-sidebar-text">for this post</p>
         <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
-        <button type="button" class="btn btn-outline-dark sidebar-upper-button">Flag</button>
-        <p class="help-text">|?| How does flagging work?</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sideModalTR">
-            Launch demo modal
-        </button>
+        <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
+        <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
     </div>
 
 <div class="full-listing">
@@ -42,33 +39,60 @@
 <a class="nav-link text-dark" asp-area="" asp-page="/14_FlagPost"> Flag Post </a>
 
 
-<!-- Side Modal Top Right -->
-<!-- Button trigger modal -->
 
-
-<!-- To change the direction of the modal animation change .right class -->
-<div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div class="modal fade right" id="flagging-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
 
-    <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+    <div class="modal-dialog modal-side modal-top-right modal-lg" role="document">
+
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Flagging: 'Apple Earbuds'</h2>
+            </div>
+            <div class="modal-body">
+                <h3>Are you sure you want to flag 'Apple Earbuds'?</h3>
+                <ul>
+                    <li>Flagging is effective immediately and will remove the item as soon as you flag it.</li>
+                    <li>You should flag items if and only if they do not adhere to the <em>posting policy</em></li>
+                    <li>Flagging is anonymous and the poster will not know who flagged their item.</li>
+                </ul>
+                <h4>Why are you flagging?</h4>
+                <div class="checkbox"><input type="checkbox" />&nbsp;The item has been posted multiple times</div>
+                <div class="checkbox"><input type="checkbox" />&nbsp;The user is requesting payment for this item</div>
+                <div class="checkbox"><input type="checkbox" />&nbsp;The item is no longer available</div>
+                <div class="checkbox"><input type="checkbox" />&nbsp;The item is inappropriate or explicit</div>
+                <div class="checkbox"><input type="checkbox" />&nbsp;The item violates the <em>posting policy</em> in another way</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Confirm Flagging</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade right" id="flagging-help-text" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+
     <div class="modal-dialog modal-side modal-top-right" role="document">
 
 
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                <h2>Questions about flagging?</h2>
             </div>
             <div class="modal-body">
-                ...
+                <p><b>What is flagging:</b> Flagging something will remove the item from view as soon as you flag it.</p>
+                <p><b>When to flag:</b> You should flag items if and only if it does not adhere to the <em>posting policy</em>.</p>
+                <p><b>Flagging is anonymous:</b> The poster will not know who flagged their item. Only site admins can.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Thanks</button>
             </div>
         </div>
     </div>
 </div>
-<!-- Side Modal Top Right -->
+
+
