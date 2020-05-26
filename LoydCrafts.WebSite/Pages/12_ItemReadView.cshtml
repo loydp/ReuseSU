@@ -5,12 +5,12 @@
 }
 
 <!-- style on the sidebar-lower div is temporary-->
-    <div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 10px;">
-        <p class="lower-sidebar-text">for this post</p>
-        <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
-        <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
-        <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
-    </div>
+<div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 10px;">
+    <p class="lower-sidebar-text">for this post</p>
+    <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
+    <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
+    <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
+</div>
 
 <div class="full-listing">
 
@@ -38,8 +38,7 @@
 <a class="nav-link text-dark" asp-area="" asp-page="/13_AboutFlagging"> About Flagging </a>
 <a class="nav-link text-dark" asp-area="" asp-page="/14_FlagPost"> Flag Post </a>
 
-
-
+<!-- FLAGGING MODAL -->
 <div class="modal fade right" id="flagging-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
 
@@ -73,7 +72,7 @@
 </div>
 
 
-
+<!-- HELP TEXT MODAL -->
 <div class="modal fade right" id="flagging-help-text" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
 
@@ -97,6 +96,7 @@
 </div>
 
 
+<!-- FLAGGING CONFIRATION MODAL -->
 <div class="modal fade right" id="flagging-confirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
 
