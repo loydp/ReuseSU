@@ -340,15 +340,17 @@
 }
 
 .create-post-body {
-    border-radius: 40px;
+    border-radius: 10px;
     float: right;
     height: 800px;
     width: 825px;
+    font-family: "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     margin-left: 250px;
     margin-right: 50px;
     margin-top: 25px;
     margin-bottom: 100px;
-    background-color: lightgray;
+    background-color: #fafafa;
+    border: 1px solid #CCC;
     text-align: center;
 }
 
