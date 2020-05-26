@@ -4,6 +4,78 @@
     ViewData["Title"] = "ItemReadView";
 }
 
+
+
+<!-- Contains sidebar-upper, and then everything else is page-specific-->
+<div class="container">
+
+
+    <!-- A container for the sidebar information-->
+    <div class="sidebar">
+
+        <!-- The upper box of the left sidebar -->
+        <div class="sidebar-upper">
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
+                Tutorial
+            </button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
+
+        </div>
+
+        <!-- Lower box of the left sidebar -->
+        <div class="sidebar-lower">
+
+            <div class="lower-sidebar-text">Set defaults</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+
+            <div class="lower-sidebar-text">Filter by Category</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+        </div>
+
+    </div>
+
+    <!-- The main area, for looking at item listings/posts -->
+    <main role="main" class="pb-3">
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Apple Earbuds 1</div>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">1 Great earbuds, only $75!</div>
+        </div>
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Apple Earbuds 2</div>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">2 Great earbuds, only $75!</div>
+        </div>
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/AppleEarbudsSmall.jpg"></div>
+            <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">Apple Earbuds 3</></a>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">3 Great earbuds, only $75!</div>
+        </div>
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Apple Earbuds 4</div>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">4 Great earbuds, only $75!</div>
+        </div>
+
+    </main>
+</div>
+
+
+
 <!-- style on the sidebar-lower div is temporary-->
 <div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 10px;">
     <p class="lower-sidebar-text">for this post</p>
@@ -65,7 +137,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-danger" ><a href="16_DemoEnd">Confirm Flagging</a></button>
+                <button type="button" class="btn btn-danger"><a href="16_DemoEnd">Confirm Flagging</a></button>
             </div>
         </div>
     </div>
