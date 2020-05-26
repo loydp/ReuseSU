@@ -359,6 +359,13 @@
     font-size: 35px;
 }
 
+.create-post-checkbox {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
 .create-post-photo-section {
     margin: 25px 25px 25px 25px;
     width: 350px;
