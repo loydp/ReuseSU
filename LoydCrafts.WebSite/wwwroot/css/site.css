@@ -101,6 +101,13 @@
     width: auto;
 }
 
+.modal-tutorial-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
 .reusese-center {
     display: block;
     margin-left: auto;
