@@ -359,6 +359,13 @@
     font-size: 35px;
 }
 
+.create-post-checkbox {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
 .create-post-photo-section {
     margin: 25px 25px 25px 25px;
     width: 350px;
@@ -395,9 +402,9 @@ input[type="text"], textarea {
 }
 
 input[type=radio] {
-    border: 0px;
-    width: 100%;
     height: 1.2em;
+    display: inline-block;
+    width: 5%;
 }
 
 
