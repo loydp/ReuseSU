@@ -88,7 +88,7 @@
     display: table-row;
     width: auto;
     clear: both;
-    padding-top: 150px;
+    margin-top: 0px;
 }
 
 .modal-body-img {
@@ -97,14 +97,14 @@
     float: left;
     margin-right: 20px;
     width: 60px;
-    display: table-column;
+    display: table-cell;
 }
 
 .modal-body-text {
-    padding-top: 15px;
-    font-size: 20px;
+    padding-top: 0px;
+    font-size: 12px;
     float: left;
-    display: table-column;
+    display: table-cell;
     width: auto;
 }
 
