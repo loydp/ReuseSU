@@ -77,6 +77,12 @@
     margin-left: auto;
 }
 
+.modal-body-small-it{
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
 .reusesu-table-row {
     display: table-row;
     width: auto;
