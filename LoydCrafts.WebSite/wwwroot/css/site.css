@@ -347,6 +347,7 @@
     margin-left: 250px;
     margin-right: 50px;
     margin-top: 25px;
+    margin-bottom: 100px;
     background-color: lightgray;
     text-align: center;
 }
@@ -360,10 +361,9 @@
 }
 
 .create-post-checkbox {
-    height: 20px;
-    width: 20px;
-    display: inline-block;
+    transform: scale(1.2);
     font-size: 20px;
+    margin-bottom: 25px;
 }
 
 .create-post-photo-section {
