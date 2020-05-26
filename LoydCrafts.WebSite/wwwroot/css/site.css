@@ -78,8 +78,9 @@
 }
 
 .modal-body-small-it{
-    font-size: 10px;
+    font-size: 14px;
     font-style: italic;
+    font-weight: 600;
     text-align: center;
 }
 
