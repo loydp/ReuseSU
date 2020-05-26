@@ -4,6 +4,69 @@
     ViewData["Title"] = "TutorialEnd";
 }
 
-<a class="nav-link text-dark" asp-area="" asp-page="/11_HomepageAfterTutorial"> <img src="~/img/10_tutorial_finish.jpg" /></a>
+<!-- Contains sidebar-upper, and then everything else is page-specific-->
+<div class="container">
 
-<h1>TutorialEnd</h1>
+
+    <!-- A container for the sidebar information-->
+    <div class="sidebar">
+
+        <!-- The upper box of the left sidebar -->
+        <div class="sidebar-upper">
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
+                Tutorial
+            </button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
+
+        </div>
+
+        <!-- Lower box of the left sidebar -->
+        <div class="sidebar-lower">
+
+            <div class="lower-sidebar-text">Set defaults</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+
+            <div class="lower-sidebar-text">Filter by Category</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
+            <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
+        </div>
+
+    </div>
+
+    <!-- The main area, for looking at item listings/posts -->
+    <main role="main" class="pb-3">
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Apple Earbuds 1</div>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">1 Great earbuds, only $75!</div>
+        </div>
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Apple Earbuds 2</div>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">2 Great earbuds, only $75!</div>
+        </div>
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Apple Earbuds 4</div>
+            <div class="listing-item-date-person" style="float:right">January 23, 2020 by dherstad</div>
+            <div class="listing-item-text">4 Great earbuds, only $75!</div>
+        </div>
+        <div class="listing">
+            <div class="listing-img"><img src="~/img/default_image_mtn.png"></div>
+            <div class="listing-item-title" style="float:left">Ftaghn R'leh</></div>
+            <div class="listing-item-date-person" style="float:right">January 24, 2020 by xcalibur</div>
+            <div class="listing-item-text">Ancient Armoire, kept in family for untold generations</div>
+        </div>
+    </main>
+</div>
