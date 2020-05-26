@@ -57,34 +57,6 @@
     </div>
 
 
-
-    <div id="newpost1-modal" class="modal fade in">
-        <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title boldfont">Was this item purchased with SU funds?</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="create-post-title" style="margin-bottom: 100px">Was this item purchased with SU funds?</div>
-                    <form action="">
-                        <input type="radio" id="Yes" name="SUPurchase" value="Yes" checked>
-                        <label for="Yes" style="font-size: 30px;">Yes</label><br>
-                        <input type="radio" id="No" name="SUPurchase" value="No">
-                        <label for="No" style="font-size: 30px;">No</label><br>
-                        <br>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <!-- Next Button-->
-                    <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/06_NewPostCategorySelection">
-                        Next
-                    </a>
-                    </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- The main area, for looking at item listings/posts -->
     <main role="main" class="pb-3">
         <div class="listing">
@@ -116,3 +88,28 @@
 </div>
 
 
+<div id="newpost1-modal" class="modal fade in">
+    <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title boldfont">Was this item purchased with SU funds?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="create-post-title" style="margin-bottom: 100px">Was this item purchased with SU funds?</div>
+                <form action="">
+                    <input type="radio" id="Yes" name="SUPurchase" value="Yes" checked>
+                    <label for="Yes" style="font-size: 30px;">Yes</label><br>
+                    <input type="radio" id="No" name="SUPurchase" value="No">
+                    <label for="No" style="font-size: 30px;">No</label><br>
+                    <br>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!-- Next Button-->
+                <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/06_NewPostCategorySelection">
+                    Next
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
