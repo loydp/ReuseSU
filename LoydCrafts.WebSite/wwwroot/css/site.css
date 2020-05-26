@@ -5,11 +5,9 @@
 }
 
 .header-image {
-    width: 100px;
-    height: 65px;
     display: inline-block;
     float: left;
-    margin-left: 58px;
+    margin-left: 5px;
 }
 
 .header-title {
