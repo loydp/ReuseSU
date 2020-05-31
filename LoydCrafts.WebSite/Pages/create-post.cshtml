@@ -195,31 +195,32 @@
     </div>
 </div>
 
+
 <!-- Page 3/3: Item Specifics-->
 <div id="newpost3-modal" class="modal fade in">
+    <div class="modal-dialog modal-lg" style="width: 900px;">
+        <div class="modal-content" style=" border-radius: 20px; width: 850px; background-color: #d7d7d7;">
 
-    <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
-
-        <div class="modal-content" style="width: 850px;">
-
-            <!--Header-->
+            <!-- Decorative header -->
             <div class="modal-header">
-
-                <h3 class="modal-title boldfont">Item Specifics</h3> <br />
-                <h4>Make a new post: 3 of 3</h4>
-
             </div>
 
-            <!--Body-->
+            <!-- Body -->
             <div class="modal-body">
 
-                <!-- Photo Section-->
+                <!-- Title -->
+                <div class="reuse-mod-body">
+                    Item Specifics
+                    <em class="modal-sub-title">Make a new post: 3 of 3</em>
+                </div>
+
+                <br />
+
+                <!-- Photo Section -->
                 <div class="create-post-photo-section">
                     Add Photos
-
                     <img id="create-post-image" src="~/img/Herman-Miller-Aeron-Chair-Smaller.jpeg" />
                     <button type="button" class="btn btn-outline-dark sidebar-upper-button" style="margin-top: 150px;">Upload Photo(s)</button><br />
-
                 </div>
 
                 <!--Text Input Section-->
@@ -257,20 +258,26 @@
                     </div>
 
                 </div>
+                <br />
+                <!-- Next button -->
+                <div class="modal-buttons">
+                    <div class="modal-button-container">
+                        <a style="font-size:x-large;" class="btn btn-outline-dark modal-button" asp-area="" asp-page="/browsing">
+                            Cancel
+                        </a>
+                        <br />
+                    </div>
+
+                    <div class="modal-button-container">
+                        <a style="font-size:x-large;" class="btn btn-outline-dark modal-button" asp-area="" asp-page="/browsing">
+                            Publish Post
+                        </a>
+                        <br />
+                    </div>
+                </div>
 
             </div>
-
-            <!--Footer-->
-            <div class="modal-footer">
-
-                <a class="btn btn-outline-dark sidebar-upper-button" asp-area="" asp-page="/browsing">
-                    Publish Post
-                </a>
-
-            </div>
-
+            <div class="modal-footer"></div>
         </div>
-
     </div>
-
 </div>
