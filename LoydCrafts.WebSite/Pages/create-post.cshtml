@@ -5,8 +5,6 @@
 }
 
 <!-- Contains code for New Post modals: SU Purchase, Item Category, and Item Specifics-->
-
-
 <!-- JS copy/pasted from https://www.tutorialrepublic.com/faq/how-to-launch-bootstrap-modal-on-page-load.php -->
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -51,7 +49,7 @@
             <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
             <div class="checkbox"><input type="checkbox" checked />&nbsp;Test</div>
             <div class="checkbox"><input type="checkbox" />&nbsp;Test</div>
-        
+
         </div>
 
     </div>
@@ -86,7 +84,7 @@
             <div class="listing-item-title" style="float:left">iPhone 3, some scratches, works fine</div>
             <div class="listing-item-date-person" style="float:right">May 1st, 2020 by ksmithfield</div>
             <div class="listing-item-text">iPhone 3gs. Ancient but works fine, may be locked into AT&amp;T Has some wear and tear around the edges, but overall is in decent condition. [...]</div>
-        
+
         </div>
 
         <!-- Sample listing-->
@@ -105,64 +103,71 @@
 
 <!-- NEW POST MODALS-->
 <!-- Page 1/3: SU Purchase Status -->
-<div id="newpost1-modal" class="modal fade in">
-   
-    <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
-       
-        <div class="modal-content style=" width: 850px;"">
-            
-            <!--Header-->
-            <div class="modal-header">
-                
-                <h3 class="modal-title boldfont">Was this item purchased with SU funds?</h3>
-            
-            </div>
-            
-            <!--Body-->
-            <div class="modal-body">
-                
-                <div class="create-post-title" style="margin-bottom: 100px">Was this item purchased with SU funds?</div>
-                    
-                <form action="">
-                        <input type="radio" id="Yes" name="SUPurchase" value="Yes" checked>
-                        <label for="Yes" style="font-size: 30px;">Yes</label><br>
-                        <input type="radio" id="No" name="SUPurchase" value="No">
-                        <label for="No" style="font-size: 30px;">No</label><br>
-                        <br>
-                </form>
-            
-            </div>
-            
-            <!--Footer-->
-            <div class="modal-footer">
-                
-                <a class="btn btn-outline-dark sidebar-upper-button" data-dismiss="modal" data-toggle="modal" data-target="#newpost2-modal">Next</a>
-            
-            </div>
-        
-        </div>
-    
-    </div>
 
+<div id="newpost1-modal" class="modal fade in">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+
+            <!-- Decorative header -->
+            <div class="modal-header">
+            </div>
+
+            <!-- Body -->
+            <div class="modal-body">
+
+                <!-- Title -->
+                <div class="reuse-mod-body">
+                    Was this item purchased with SU funds?
+                    <em>Make a new post: 1 of 3</em>
+                </div>
+                <br />
+                <div class="modal-body-small-it">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <br />
+                <!-- Radio buttons -->
+                <form action="" style="padding-left: 80px;">
+                    <input type="radio" id="Yes" name="SUPurchase" value="Yes" checked>
+                    <label for="Yes" style="font-size: 30px;">Yes</label><br>
+                    <input type="radio" id="No" name="SUPurchase" value="No">
+                    <label for="No" style="font-size: 30px;">No</label><br>
+                    <br>
+                </form>
+                <br />
+                <!-- Next button -->
+                <div class="modal-buttons">
+                    <div class="modal-button-container">
+                        <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
+                                data-dismiss="modal" data-toggle="modal" data-target="#newpost2-modal">
+                            Next
+                        </button><br />
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
 </div>
+
 
 <!-- Page 2/3: Category Selection -->
 <div id="newpost2-modal" class="modal fade in">
-    
+
     <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
-        
+
         <div class="modal-content style=" width: 850px;"">
-            
+
             <!--Header-->
             <div class="modal-header">
-               
+
                 <h3 class="modal-title boldfont">Was this item purchased with SU funds?</h3>
-            
+
             </div>
-            
+
             <!--Body-->
             <div class="modal-body">
-                
+
                 <div class="create-post-title" style="margin-bottom: 80px">Which category best describes your item?</div>
 
                 <div class="create-post-checkbox"><input type="checkbox" checked />&nbsp;Furniture</div>
@@ -170,72 +175,76 @@
                 <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Books</div>
                 <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Electronics</div>
                 <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Misc</div>
-            
+
             </div>
-            
+
             <!--Footer-->
             <div class="modal-footer">
-               
+
                 <a class="btn btn-outline-dark sidebar-upper-button" data-dismiss="modal" data-toggle="modal" data-target="#newpost3-modal">Next</a>
-            
+
             </div>
-       
+
         </div>
-    
+
     </div>
 
 </div>
 
 <!-- Page 3/3: Item Specifics-->
 <div id="newpost3-modal" class="modal fade in">
-    
+
     <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
-        
+
         <div class="modal-content" style="width: 850px;">
 
             <!--Header-->
             <div class="modal-header">
-                
+
                 <h3 class="modal-title boldfont">Item Specifics</h3> <br />
                 <h4>Make a new post: 3 of 3</h4>
-            
+
             </div>
 
             <!--Body-->
             <div class="modal-body">
-                
+
                 <!-- Photo Section-->
-                <div class="create-post-photo-section">Add Photos
-                    
+                <div class="create-post-photo-section">
+                    Add Photos
+
                     <img id="create-post-image" src="~/img/Herman-Miller-Aeron-Chair-Smaller.jpeg" />
                     <button type="button" class="btn btn-outline-dark sidebar-upper-button" style="margin-top: 150px;">Upload Photo(s)</button><br />
-                
+
                 </div>
 
                 <!--Text Input Section-->
                 <div class="create-post-text-section">
-                    
+
                     <!-- Title section-->
-                    <div class="create-post-component">Title*
-                        
+                    <div class="create-post-component">
+                        Title*
+
                         <form action="#" method="post">
                             <textarea name="textarea" cols="40" rows="2">Herman Miller Aeron Desk Chair</textarea>
                         </form>
-                    
+
                     </div>
-                   
+
                     <!-- Description section-->
-                    <div class="create-post-component">Description*
+                    <div class="create-post-component">
+                        Description*
 
                         <form action="#" method="post">
                             <textarea name="textarea" cols="40" rows="10">Herman Miller Aeron desk chair, black, like new condition.  I've only had it a few months but it's too big for my shared office.  Dimensions are approximately 17 x 24 x 42".
                         </textarea>
                         </form>
-                    
+
                     </div>
-                    
+
                     <!-- Logistics section -->
-                    <div class="create-post-component">Logistics
+                    <div class="create-post-component">
+                        Logistics
 
                         <form action="#" method="post">
                             <textarea name="textarea" cols="40" rows="5">My office is PIGT 523.  I have a new chair coming on 5/12 and would like to have it gone by then, should be easy to roll.  Email me to coordinate timing.​</textarea>
@@ -246,7 +255,7 @@
                 </div>
 
             </div>
-            
+
             <!--Footer-->
             <div class="modal-footer">
 
@@ -255,11 +264,9 @@
                 </a>
 
             </div>
-        
+
         </div>
-    
+
     </div>
 
 </div>
-
-
