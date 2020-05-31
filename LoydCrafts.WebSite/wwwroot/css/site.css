@@ -100,10 +100,17 @@
     display: table-cell;
 }
 
+/* can delete? */
 .modal-body-text {
     padding-top: 5px;
     font-size: 16px;
-    float: left;
+
+}
+
+.modal-body-checkbox {
+    padding-top: 5px;
+    padding-left: 100px;
+    font-size: 16px;
     display: table-cell;
     width: auto;
 }
@@ -400,7 +407,6 @@
 .create-post-photo-section {
     margin: 25px 25px 25px 25px;
     width: 350px;
-    height: 600px;
     font-size: 20px;
     font-weight: bold;
     float: left;
@@ -412,6 +418,7 @@
     margin-top: 100px;
     vertical-align: middle;
 }
+
 .create-post-text-section {
     margin: 25px 25px 25px 25px;
     width: 350px;
