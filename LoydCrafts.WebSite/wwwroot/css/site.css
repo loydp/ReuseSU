@@ -154,7 +154,8 @@
 }
 
 .modal-button:hover{
-    font-weight: bold;
+    font-weight: 600;
+    font-style: italic;
     background-color: #aa0000;
     color: antiquewhite;
 }
