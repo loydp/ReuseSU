@@ -355,6 +355,10 @@
     margin-left: 115px;
 }
 
+.listing-item-studentstaff{
+    float: right;
+}
+
 /* Create new post pages */
 .create-post-header {
     font-size: 40px;
