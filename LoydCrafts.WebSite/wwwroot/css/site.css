@@ -153,6 +153,12 @@
     color: antiquewhite;
 }
 
+.modal-button:hover{
+    font-weight: bold;
+    background-color: #aa0000;
+    color: antiquewhite;
+}
+
 .modal-link{
     text-align: center;
     text-decoration: underline;
