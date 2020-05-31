@@ -355,9 +355,12 @@
     margin-left: 115px;
 }
 
-.listing-item-studentstaff{
+.listing-item-studentstaff {
     float: right;
+    color: #aa0000;
+    text-shadow: 0 0 4px antiquewhite, 0 0 5px #aa0000;
 }
+
 
 /* Create new post pages */
 .create-post-header {
