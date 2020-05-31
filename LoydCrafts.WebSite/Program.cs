@@ -11,11 +11,13 @@ namespace ReuseSU.WebSite
 {
     public class Program
     {
+        // Main method of the class
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
 
+        // Creates a default host that will use the Startup class to start the website
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
