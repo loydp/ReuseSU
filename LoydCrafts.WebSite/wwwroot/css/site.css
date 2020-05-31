@@ -149,7 +149,8 @@
 .modal-button {
     width: 200px;
     margin: 5px 10px;
-    background-color: #EEE;
+    background-color: #AA0000;
+    color: antiquewhite;
 }
 
 .modal-link{
