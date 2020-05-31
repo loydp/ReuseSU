@@ -14,11 +14,13 @@ namespace ReuseSU.WebSite
 {
     public class Startup
     {
+        // Constructor for startup class; initializes Configuration
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
+        // Returns a Configuration object that will configure the application on startup
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
