@@ -355,10 +355,16 @@
     margin-left: 115px;
 }
 
-.listing-item-studentstaff {
+.listing-item-facultystaff {
     float: right;
     color: #aa0000;
     text-shadow: 0 0 4px antiquewhite, 0 0 5px #aa0000;
+}
+
+.listing-item-student {
+    float: right;
+    color: #0000aa;
+    text-shadow: 0 0 4px antiquewhite, 0 0 5px #00aa;
 }
 
 
