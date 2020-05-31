@@ -156,7 +156,15 @@
 .modal-button {
     width: 200px;
     margin: 5px 10px;
-    background-color: #EEE;
+    background-color: #AA0000;
+    color: antiquewhite;
+}
+
+.modal-button:hover{
+    font-weight: 600;
+    font-style: italic;
+    background-color: #aa0000;
+    color: antiquewhite;
 }
 
 .modal-link{
@@ -360,6 +368,19 @@
     margin-top: 35px;
     margin-left: 115px;
 }
+
+.listing-item-facultystaff {
+    float: right;
+    color: #aa0000;
+    text-shadow: 0 0 4px antiquewhite, 0 0 5px #aa0000;
+}
+
+.listing-item-student {
+    float: right;
+    color: #0000aa;
+    text-shadow: 0 0 4px antiquewhite, 0 0 5px #0000aa;
+}
+
 
 /* Create new post pages */
 .create-post-header {
