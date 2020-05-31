@@ -104,22 +104,43 @@
 
 
 <!-- FLAGGING CONFIRMATION MODAL -->
-<div class="modal fade right" id="flagging-confirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-     aria-hidden="true">
+<div id="flagging-confirmation" class="modal fade in">
+    <div class="modal-dialog">
+        <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+            
+            <!-- Decorative header -->
+            <div class="modal-header"></div>
 
-    <div class="modal-dialog modal-side modal-top-right" role="document">
-
-
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Thank you!</h2>
-            </div>
             <div class="modal-body">
-                <p>Thanks for flagging and doing your part to keep the community safe and focused on doing what it does best. The post has been removed!</p>
+
+                <!-- Title, despite the description -->
+                <div class="reuse-mod-body">
+                    <em>Thank you!</em>
+                </div>
+
+                <!-- body -->
+                <div class="modal-body-small-it">
+                    <p>Thanks for flagging and doing your part to keep the community safe and focused on doing what it does best. The post has been removed!</p>
+                </div>
+
+                <br />
+            
+                <!-- Continue button -->
+                <div class="modal-buttons">
+                    <div class="modal-button-container">
+                        <button type="button" style="font-size:large;" class="btn btn-outline-dark modal-button"
+                                data-dismiss="modal">
+                            Done!
+                        </button><br />
+                    </div>
+                </div>
+
+                <br />
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Done!</button>
-            </div>
+
+            <!-- Decorative footer-->
+            <div class="modal-footer"></div>
+
         </div>
     </div>
 </div>
