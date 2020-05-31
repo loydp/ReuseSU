@@ -151,44 +151,48 @@
 </div>
 
 
+
 <!-- Page 2/3: Category Selection -->
 <div id="newpost2-modal" class="modal fade in">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
 
-    <div class="modal-dialog modal-lg" style="border-radius: 20px; background-color: #d7d7d7;">
-
-        <div class="modal-content style=" width: 850px;"">
-
-            <!--Header-->
+            <!-- Decorative header -->
             <div class="modal-header">
-
-                <h3 class="modal-title boldfont">Was this item purchased with SU funds?</h3>
-
             </div>
 
-            <!--Body-->
+            <!-- Body -->
             <div class="modal-body">
 
-                <div class="create-post-title" style="margin-bottom: 80px">Which category best describes your item?</div>
-
-                <div class="create-post-checkbox"><input type="checkbox" checked />&nbsp;Furniture</div>
-                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Decor</div>
-                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Books</div>
-                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Electronics</div>
-                <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Misc</div>
+                <!-- Title -->
+                <div class="reuse-mod-body">
+                    Which category best describes your item?
+                    <em>Make a new post: 2 of 3</em>
+                </div>
+                <br />
+                <div class="modal-body-checkbox">
+                    <!-- checkboxes -->
+                    <div class="create-post-checkbox"><input type="checkbox" checked />&nbsp;Furniture</div>
+                    <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Decor</div>
+                    <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Books</div>
+                    <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Electronics</div>
+                    <div class="create-post-checkbox"><input type="checkbox" />&nbsp;Misc</div>
+                </div>
+                <br />
+                <!-- Next button -->
+                <div class="modal-buttons">
+                    <div class="modal-button-container">
+                        <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
+                                data-dismiss="modal" data-toggle="modal" data-target="#newpost3-modal">
+                            Next
+                        </button><br />
+                    </div>
+                </div>
 
             </div>
-
-            <!--Footer-->
-            <div class="modal-footer">
-
-                <a class="btn btn-outline-dark sidebar-upper-button" data-dismiss="modal" data-toggle="modal" data-target="#newpost3-modal">Next</a>
-
-            </div>
-
+            <div class="modal-footer"></div>
         </div>
-
     </div>
-
 </div>
 
 <!-- Page 3/3: Item Specifics-->
