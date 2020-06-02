@@ -17,12 +17,15 @@ namespace ReuseSU.WebSite.Pages
     {
         // Aggregates most logging patterns to a single method
         private readonly ILogger<IndexModel> _logger;
+
         // Keeps track of products to sell on crafts website from Json file
         public JsonFileProductService ProductService;
+
         /// <summary>
         /// Function to keep track of products and allows the getting and setting
         /// </summary>
         public IEnumerable<Product> Products { get; private set; }
+
         /// <summary>
         /// Constructor to create a new index model
         /// </summary>
