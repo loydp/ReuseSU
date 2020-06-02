@@ -309,6 +309,7 @@
     text-decoration: underline; 
     font-style: italic; 
     color: #555;
+    cursor: pointer;
 }
 
 .listing {
