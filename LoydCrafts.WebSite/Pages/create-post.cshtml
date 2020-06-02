@@ -22,30 +22,80 @@
     <!-- A container for the sidebar information-->
     <div class="sidebar">
 
-        <!-- The upper box of the left sidebar -->
+        <!-- The upper box of the left sidebar - main site navigation buttons -->
         <div class="sidebar-upper">
 
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">Tutorial</button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                Home
+            </button>
+
+            <br />
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                About
+            </button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                Usage Guidelines
+            </button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
+                Tutorial
+            </button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                My Posts
+            </button>
 
         </div>
 
-        <!-- Lower box of the left sidebar -->
+        <!-- Lower box of the left sidebar - item filters for browsing -->
         <div class="sidebar-lower">
 
-            <div class="lower-sidebar-text">Set defaults</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp; Select All</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Include My Items</div>
+            <!-- Set defaults -->
+            <div class="lower-sidebar-text">
+                Set defaults
+            </div>
 
-            <div class="lower-sidebar-text">Filter by Category</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Furniture</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Decor</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Books</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Electronics</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Misc</div>
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Select All
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Include My Items
+            </div>
+
+            <!-- Filter by category -->
+            <div class="lower-sidebar-text">
+                Filter by Category
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Furniture
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Decor
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Books
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Electronics
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Misc
+            </div>
 
         </div>
 
@@ -55,39 +105,104 @@
     <!-- The main area, for looking at item listings/posts;  all of this will be in background of modals -->
     <main role="main" class="pb-3">
 
+        <!-- Same first item on Index page -->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/rsz_barstools.jpg"></div>
-            <div class="listing-item-title" style="float:left">Matching barstools, Danish modern</div>
-            <div class="listing-item-date-person" style="float:right">April 30th, 2020 by ssook2</div>
-            <div class="listing-item-text">Moving from Chardin and need a home for my 2 matching barstools. Good condition. Slighty creaky, stop by to take a look.</div>
-            <div class="listing-item-student">Personal Item</div>
+
+            <div class="listing-img">
+                <img src="~/img/rsz_barstools.jpg">
+            </div>
+
+            <div class="listing-item-title" style="float:left">
+                Matching barstools, Danish modern
+            </div>
+
+            <div class="listing-item-date-person" style="float:right">
+                April 30th, 2020 by ssook2
+            </div>
+
+            <div class="listing-item-text">
+                Moving from Chardin and need a home for my 2 matching barstools. Good condition. Slighty creaky, stop by to take a look.
+            </div>
+
+            <div class="listing-item-student">
+                Personal Item
+            </div>
+
         </div>
 
         <!-- Darren's post from Daniel's Scenario -->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/AppleEarbudsSmall.jpg"></div>
-            <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">Factory Fresh Apple Earbuds, get them quick!</></a>
-            <div class="listing-item-date-person" style="float:right">May 1st, 2020 by dherstad</div>
-            <div class="listing-item-text">Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! [...]</div>
-            <div class="listing-item-student">Personal Item</div>
+
+            <div class="listing-img">
+                <img src="~/img/AppleEarbudsSmall.jpg">
+            </div>
+
+            <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">
+                Factory Fresh Apple Earbuds, get them quick!
+            </a>
+
+            <div class="listing-item-date-person" style="float:right">
+                May 1st, 2020 by dherstad
+            </div>
+
+            <div class="listing-item-text">
+                Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! [...]
+            </div>
+
+            <div class="listing-item-student">
+                Personal Item
+            </div>
+
+        </div>
+
+        <!-- Sample Listing iPhone-->
+        <div class="listing">
+
+            <div class="listing-img">
+                <img src="~/img/iphone_3gs.jpg">
+            </div>
+
+            <div class="listing-item-title" style="float:left">
+                iPhone 3, some scratches, works fine
+            </div>
+
+            <div class="listing-item-date-person" style="float:right">
+                May 1st, 2020 by ksmithfield
+            </div>
+
+            <div class="listing-item-text">
+                iPhone 3gs. Ancient but works fine, may be locked into AT&amp;T Has some wear and tear around the edges, but overall is in decent condition. [...]
+            </div>
+
+            <div class="listing-item-student">
+                Personal Item
+            </div>
+
         </div>
 
         <!-- Sample Listing -->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/iphone_3gs.jpg"></div>
-            <div class="listing-item-title" style="float:left">iPhone 3, some scratches, works fine</div>
-            <div class="listing-item-date-person" style="float:right">May 1st, 2020 by ksmithfield</div>
-            <div class="listing-item-text">iPhone 3gs. Ancient but works fine, may be locked into AT&amp;T Has some wear and tear around the edges, but overall is in decent condition. [...]</div>
-            <div class="listing-item-student">Personal Item</div>
-        </div>
 
-        <!-- Sample Listing -->
-        <div class="listing">
-            <div class="listing-img"><img src="~/img/rsz_table.jpg"></div>
-            <div class="listing-item-title" style="float:left">Small end table, 3 ft high, 26" across</div>
-            <div class="listing-item-date-person" style="float:right">May 2nd, 2020 by santoneth</div>
-            <div class="listing-item-text">A small end table, suitable for a potted plant or maybe a lamp. Not too sturdy, but serviceable. Please take it even if to try, next stop will be the trash!</div>
-            <div class="listing-item-facultystaff">SU Item</div>
+            <div class="listing-img">
+                <img src="~/img/rsz_table.jpg">
+            </div>
+
+            <div class="listing-item-title" style="float:left">
+                Small end table, 3 ft high, 26" across
+            </div>
+
+            <div class="listing-item-date-person" style="float:right">
+                May 2nd, 2020 by santoneth
+            </div>
+
+            <div class="listing-item-text">
+                A small end table, suitable for a potted plant or maybe a lamp. Not too sturdy, but serviceable. Please take it even if to try, next stop will be the trash!
+            </div>
+
+            <div class="listing-item-facultystaff">
+                SU Item
+            </div>
+
         </div>
 
     </main>
@@ -98,7 +213,9 @@
 <!-- Page 1/3: SU Purchase Status -->
 
 <div id="newpost1-modal" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+    
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
 
             <!-- Decorative header -->
@@ -111,42 +228,65 @@
                 <!-- Title -->
                 <div class="reuse-mod-body">
                     Was this item purchased with SU funds?
-
                 </div>
+
                 <div class="modal-body-small-it">
                     <em>Make a new post: 1 of 3</em>
                 </div>
+
                 <br />
                 <!-- Radio buttons -->
                 <form action="" style="padding-left: 170px;">
+
                     <input type="radio" id="Yes" name="SUPurchase" value="Yes" checked>
-                    <label for="Yes" style="font-size: 20px;">Yes</label><br>
+
+                    <label for="Yes" style="font-size: 20px;">
+                        Yes
+                    </label>
+                    
+                    <br>
+
                     <input type="radio" id="No" name="SUPurchase" value="No">
-                    <label for="No" style="font-size: 20px;">No</label><br>
+
+                    <label for="No" style="font-size: 20px;">
+                        No
+                    </label>
+                    
+                    <br>
+
                 </form>
 
                 <br />
                 <!-- Next button -->
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
-                        <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
-                                data-dismiss="modal" data-toggle="modal" data-target="#newpost2-modal">
+
+                        <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button" data-dismiss="modal" data-toggle="modal" data-target="#newpost2-modal">
                             Next
                         </button><br />
+
                     </div>
+
                 </div>
 
             </div>
+
             <div class="modal-footer"></div>
+
         </div>
+
     </div>
+
 </div>
 
 
 
 <!-- Page 2/3: Category Selection -->
 <div id="newpost2-modal" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
 
             <!-- Decorative header -->
@@ -168,22 +308,43 @@
 
                 <!-- checkboxes -->
                 <div class="create-post-checkbox">
-                    <div class="checkbox"><input type="checkbox" />&nbsp;Furniture</div>
-                    <div class="checkbox"><input type="checkbox" />&nbsp;Decor</div>
-                    <div class="checkbox"><input type="checkbox" />&nbsp;Books</div>
-                    <div class="checkbox"><input type="checkbox" />&nbsp;Electronics</div>
-                    <div class="checkbox"><input type="checkbox" />&nbsp;Misc</div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;Furniture
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;Decor
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;Books
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;Electronics
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;Misc
+                    </div>
+
                 </div>
 
                 <br />
+
                 <!-- Next button -->
                 <div class="modal-buttons">
+                
                     <div class="modal-button-container">
+                    
                         <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
                                 data-dismiss="modal" data-toggle="modal" data-target="#newpost3-modal">
                             Next
                         </button><br />
+
                     </div>
+                
                 </div>
 
             </div>
@@ -191,13 +352,17 @@
             <div class="modal-footer"></div>
 
         </div>
+
     </div>
+
 </div>
 
 
 <!-- Page 3/3: Item Specifics-->
 <div id="newpost3-modal" class="modal fade in">
+
     <div class="modal-dialog modal-lg" style="width: 900px;">
+
         <div class="modal-content" style=" border-radius: 20px; width: 850px; background-color: #d7d7d7;">
 
             <!-- Decorative header -->
@@ -211,17 +376,21 @@
                 <div class="reuse-mod-body">
                     Item Specifics
                 </div>
+
                 <div class="modal-body-small-it">
                     <em>Make a new post: 3 of 3</em>
                 </div>
 
                 <!-- Photo Section -->
                 <div class="create-post-photo-section">
+
                     Add Photos
                     <img id="create-post-image" src="~/img/Herman-Miller-Aeron-Chair-Smaller.jpeg" />
+
                     <button type="button" class="btn btn-outline-dark sidebar-upper-button" style="margin-top: 50px;">
                         Upload Photo(s)
                     </button>
+
                 </div>
 
                 <!--Text Input Section-->
@@ -229,6 +398,7 @@
 
                     <!-- Title section-->
                     <div class="create-post-component">
+
                         Title*
 
                         <form action="#" method="post">
@@ -239,6 +409,7 @@
 
                     <!-- Description section-->
                     <div class="create-post-component">
+
                         Description*
 
                         <form action="#" method="post">
@@ -250,6 +421,7 @@
 
                     <!-- Logistics section -->
                     <div class="create-post-component">
+
                         Logistics
 
                         <form action="#" method="post">
@@ -262,10 +434,13 @@
                 
                 <!-- Next button -->
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
+
                         <a style="font-size:x-large;" class="btn btn-outline-dark modal-button" asp-area="" asp-page="/browsing">
                             Cancel
                         </a>
+
                         <br />
                     </div>
 
@@ -273,12 +448,19 @@
                         <a style="font-size:x-large;" class="btn btn-outline-dark modal-button" asp-area="" asp-page="/browsing">
                             Publish Post
                         </a>
+
                         <br />
+
                     </div>
+
                 </div>
 
             </div>
+
             <div class="modal-footer"></div>
+
         </div>
+
     </div>
+
 </div>
