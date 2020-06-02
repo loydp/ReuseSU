@@ -263,6 +263,7 @@
     margin-top: 10px;
     font-style: italic;
     font-weight: 600;
+    color: 222;
 }
 
 .checkbox{
@@ -301,6 +302,10 @@
 .sidebar-lower {
     border: 1px solid #CCC;
     padding: 10px 0px;
+}
+
+.sidebar-lower-buttons {
+    text-align: center;
 }
 
 .help-text {
