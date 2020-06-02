@@ -24,29 +24,78 @@
         <!-- The upper box of the left sidebar -->
         <div class="sidebar-upper">
 
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                Home
+            </button>
+
+            <br />
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                About
+            </button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                Usage Guidelines
+            </button>
+
             <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
                 Tutorial
             </button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                My Posts
+            </button>
 
         </div>
 
-        <!-- Lower box of the left sidebar -->
+        <!-- Lower box of the left sidebar - item filters for browsing -->
         <div class="sidebar-lower">
 
-            <div class="lower-sidebar-text">Set defaults</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp; Select All</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Include My Items</div>
+            <!-- Set defaults -->
+            <div class="lower-sidebar-text">
+                Set defaults
+            </div>
 
-            <div class="lower-sidebar-text">Filter by Category</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Furniture</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Decor</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Books</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Electronics</div>
-            <div class="checkbox"><input type="checkbox" checked />&nbsp;Misc</div>
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Select All
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Include My Items
+            </div>
+
+            <!-- Filter by category -->
+            <div class="lower-sidebar-text">
+                Filter by Category
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Furniture
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Decor
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Books
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Electronics
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" checked />&nbsp;
+                Misc
+            </div>
+
         </div>
 
     </div>
@@ -54,37 +103,104 @@
     <!-- The main area, for looking at item listings/posts -->
     <main role="main" class="pb-3">
 
+        <!-- Same first item on Index page -->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/rsz_barstools.jpg"></div>
-            <div class="listing-item-title" style="float:left">Matching barstools, Danish modern</div>
-            <div class="listing-item-date-person" style="float:right">April 30th, 2020 by ssook2</div>
-            <div class="listing-item-text">Moving from Chardin and need a home for my 2 matching barstools. Good condition. Slighty creaky, stop by to take a look.</div>
-            <div class="listing-item-student">Personal Item</div>
+
+            <div class="listing-img">
+                <img src="~/img/rsz_barstools.jpg">
+            </div>
+
+            <div class="listing-item-title" style="float:left">
+                Matching barstools, Danish modern
+            </div>
+
+            <div class="listing-item-date-person" style="float:right">
+                April 30th, 2020 by ssook2
+            </div>
+
+            <div class="listing-item-text">
+                Moving from Chardin and need a home for my 2 matching barstools. Good condition. Slighty creaky, stop by to take a look.
+            </div>
+
+            <div class="listing-item-student">
+                Personal Item
+            </div>
+
         </div>
 
         <!-- Darren's post from Daniel's Scenario -->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/AppleEarbudsSmall.jpg"></div>
-            <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">Factory Fresh Apple Earbuds, get them quick!</></a>
-            <div class="listing-item-date-person" style="float:right">May 1st, 2020 by dherstad</div>
-            <div class="listing-item-text">Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! [...]</div>
-            <div class="listing-item-student">Personal Item</div>
+
+            <div class="listing-img">
+                <img src="~/img/AppleEarbudsSmall.jpg">
+            </div>
+
+            <a class="listing-item-title" asp-area="" asp-page="/12_ItemReadView" style="float:left">
+                Factory Fresh Apple Earbuds, get them quick!
+            </a>
+
+            <div class="listing-item-date-person" style="float:right">
+                May 1st, 2020 by dherstad
+            </div>
+
+            <div class="listing-item-text">
+                Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! [...]
+            </div>
+
+            <div class="listing-item-student">
+                Personal Item
+            </div>
+
         </div>
 
+        <!-- Sample Listing iPhone-->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/iphone_3gs.jpg"></div>
-            <div class="listing-item-title" style="float:left">iPhone 3, some scratches, works fine</div>
-            <div class="listing-item-date-person" style="float:right">May 1st, 2020 by ksmithfield</div>
-            <div class="listing-item-text">iPhone 3gs. Ancient but works fine, may be locked into AT&amp;T Has some wear and tear around the edges, but overall is in decent condition. [...]</div>
-            <div class="listing-item-student">Personal Item</div>
+
+            <div class="listing-img">
+                <img src="~/img/iphone_3gs.jpg">
+            </div>
+
+            <div class="listing-item-title" style="float:left">
+                iPhone 3, some scratches, works fine
+            </div>
+
+            <div class="listing-item-date-person" style="float:right">
+                May 1st, 2020 by ksmithfield
+            </div>
+
+            <div class="listing-item-text">
+                iPhone 3gs. Ancient but works fine, may be locked into AT&amp;T Has some wear and tear around the edges, but overall is in decent condition. [...]
+            </div>
+
+            <div class="listing-item-student">
+                Personal Item
+            </div>
+
         </div>
 
+        <!-- Sample Listing -->
         <div class="listing">
-            <div class="listing-img"><img src="~/img/rsz_table.jpg"></div>
-            <div class="listing-item-title" style="float:left">Small end table, 3 ft high, 26" across</div>
-            <div class="listing-item-date-person" style="float:right">May 2nd, 2020 by santoneth</div>
-            <div class="listing-item-text">A small end table, suitable for a potted plant or maybe a lamp. Not too sturdy, but serviceable. Please take it even if to try, next stop will be the trash!</div>
-            <div class="listing-item-facultystaff">SU Item</div>
+
+            <div class="listing-img">
+                <img src="~/img/rsz_table.jpg">
+            </div>
+
+            <div class="listing-item-title" style="float:left">
+                Small end table, 3 ft high, 26" across
+            </div>
+
+            <div class="listing-item-date-person" style="float:right">
+                May 2nd, 2020 by santoneth
+            </div>
+
+            <div class="listing-item-text">
+                A small end table, suitable for a potted plant or maybe a lamp. Not too sturdy, but serviceable. Please take it even if to try, next stop will be the trash!
+            </div>
+
+            <div class="listing-item-facultystaff">
+                SU Item
+            </div>
+
         </div>
 
     </main>
@@ -94,294 +210,423 @@
 
 <!-- Welcome and Process Overview Modal-->
 <div id="tutorial-modal-1" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="background-color: #d7d7d7; border-radius: 20px;">
+
+            <!-- Header -->
             <div class="modal-header">
             </div>
-            <h2 class="boldfont reusesu-mod-title">Welcome to ReuseSU!</h2>
+
+            <h2 class="boldfont reusesu-mod-title">
+                Welcome to ReuseSU!
+            </h2>
+
             <h4 class="modal-sub-title">
                 a simple, easy-to-use platform for free item exchanges<br>
                 within the Seattle University community
             </h4>
+
             <div class="reuse-mod-body">
                 It looks like this is your first time on the site,<br />
                 so here's an overview of how it works:
             </div>
+
+            <!-- Images and Text -->
             <div class="modal-body">
+
                 <div class="modal-body-items">
 
                     <div class="reusesu-table-row">
+
                         <div class="modal-body-img">
                             <img src="~/img/M1-SUIconSmall.png" height="40" width="33" />
                         </div>
+
                         <div class="modal-body-text">
                             Site access and the item exchange proccess <br />
                             is restricted to SU community members<br />
                         </div>
+
                     </div>
 
                     <div class="reusesu-table-row">
+
                         <div class="modal-body-img">
                             <img src="~/img/M2-PushPinSmall.png" height="40" width="40" />
                         </div>
+
                         <div class="modal-body-text">
                             If you have something you want to get rid of, <br />you can make a post
                         </div>
+
                     </div>
 
                     <div class="reusesu-table-row">
+
                         <div class="modal-body-img">
                             <img src="~/img/M3-MagSmall.png" height="40" width="40" />
                         </div>
+
                         <div class="modal-body-text">
                             And if you would like to find a free item<br />you can browse what others have posted
                         </div>
+
                     </div>
 
                     <div class="reusesu-table-row">
+
                         <div class="modal-body-img">
                             <img src="~/img/M4-EmailSmall.png" height="40" width="40" />
                         </div>
+
                         <div class="modal-body-text">
                             Item givers and item seekers coordinate item exchanges<br /> via their SU email addresses
                         </div>
+
                     </div>
 
                     <div class="reusesu-table-row">
+
                         <div class="modal-body-img">
                             <img src="~/img/M5HandShakeSmall.png" height="40" width="40" />
                         </div>
+
                         <div class="modal-body-text">
                             And voila! Items are seamlessly saved from the landfill <br />and recycled within the community
                         </div>
+
                     </div>
 
                 </div>
 
+                <!-- back to whatever -->
                 <div class="modal-what1">
                     What would you like to do?
                 </div>
+
                 <div class="modal-what2">
                     We'll walk you through it in the next steps.
                 </div>
 
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
+
                         <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button" data-target="#tutorial-modal-2"
                                 data-dismiss="modal" data-toggle="modal">
                             Post an item
                         </button>
+
                     </div>
+
                     <div class="modal-button-container">
+
                         <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button" data-target="#tutorial-modal-2"
                                 data-dismiss="modal" data-toggle="modal">
                             Look for items
                         </button>
+
                     </div>
+
                 </div>
 
             </div>
-            <div class="modal-footer">
 
+            <div class="modal-footer">
             </div>
+
         </div>
+
     </div>
+
 </div>
 
 <!-- User Agreement Modal-->
 <div id="tutorial-modal-2" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+
             <div class="modal-header">
             </div>
+
             <h2 class="boldfont reusesu-mod-title" style="font-size: xx-large;">Great!  We'll guide you through that in a moment.</h2>
+
             <div class="reuse-mod-body">
                 First, here are a few important things to know<br>
                 before you proceed:
             </div>
+
             <div class="modal-body">
+
                 <div class="modal-body-items">
 
                     <div class="reusesu-table-row">
+
                         <div class="modal-body-text" style="width: 600px;">
+
                             <ul>
                                 <li>All items posted are to be considered <strong>free donations</strong>; requests for payment are not allowed.</li>
+
                                 <br />
+
                                 <li>Only <strong>tangible</strong> items should be posted; intangibles, such as services, are not allowed.</li>
+                                
                                 <br />
+
                                 <li>Your <strong>name</strong> and <strong>SU email</strong> will be <strong>publicly visible</strong> to all other users if/when you make a post.</li>
+                                
                                 <br />
+                                
                                 <li>
                                     Be respectful to your fellow community members: Seattle University's <strong>code of conduct</strong> still applies here and inappropriate posts
                                     can be <strong>flagged and removed</strong>
                                 </li>
+
                                 <br />
+
                                 <li>Please <strong>do not </strong> contact Facilities for help with moving large items; individuals are responsible for coordinating and handling item exchanges themselves.</li>
+                                
                                 <br />
+
                             </ul>
+
                         </div>
+
                     </div>
+
                     <div class="checkbox-modal-area">
+
                         <div class="checkbox-modal">
                             <input type="checkbox" onchange="document.getElementById('agree-button').disabled = !this.checked;" />
                         </div>
+
                         <div class="agreement-text">
                             <p>
                                 By checking this box, I accept personal responsibility for what I<br />
                                 post and acknowledge that SU is not liable for how this site is used.
                             </p>
                         </div>
+
                     </div>
 
                     <div class="modal-buttons" style="margin: 0px;">
+
                         <div class="modal-button-container">
+
                             <button type="button" id="agree-button" style="font-size:x-large;" class="btn btn-outline-dark modal-button" disabled
                                     data-dismiss="modal" data-toggle="modal" data-target="#tutorial-modal-3">
                                 Agree
                             </button>
+
                             <br />
+
                         </div>
+
                     </div>
 
                 </div>
+
             </div>
+
             <div class="modal-footer">
             </div>
+
         </div>
+
     </div>
+
 </div>
 
 <!-- Start Tutorial Modal -->
 <div id="tutorial-modal-3" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+
+            <!-- Decorative Header -->
             <div class="modal-header">
             </div>
+
+            <!-- Modal Body -->
             <div class="modal-body">
 
                 <div class="reuse-mod-body">
                     <em>Thank you!</em>  &nbsp;Let's get started with a<br />
                     quick walk-through of the site.
                 </div>
+
                 <br />
+
                 <div class="modal-body-small-it">
                     This should only take a few minutes.
                 </div>
+
                 <br />
                 <br />
+
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
+
                         <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
                                 data-dismiss="modal" data-toggle="modal" data-target="#tutorial-modal-3a">
                             Get Started
                         </button><br />
+
                     </div>
+
                 </div>
 
                 <div class="modal-link" data-dismiss="modal">
-                    <a href="">Skip and Go Directly to Site</a>
+
+                    <a href="">
+                        Skip and Go Directly to Site
+                    </a>
+
                 </div>
+
                 <br />
 
             </div>
+
             <div class="modal-footer">
             </div>
+
         </div>
+
     </div>
+
 </div>
 
 <!-- Tutorial Modal: Creating & Managing Posts-->
 <div id="tutorial-modal-3a" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+
+            <!-- Decorative header -->
             <div class="modal-header">
             </div>
+
             <div class="modal-body">
                
-                    <div class="reuse-mod-body">
-                        Creating & Managing Posts<br />
-                    </div>
+                <!-- Body, pictures next to descriptive text -->
+                <div class="reuse-mod-body">
+                    Creating & Managing Posts<br />
+                </div>
      
-                    <div class="reusesu-table-row">
-                        <div class="modal-tutorial-img-2">
-                            <img src="~/img/Tutorial_NewPostButton.PNG" />
-                        </div>
-                        <div class="modal-tutorial-text">
-                            <strong> Click on New Post </strong>to create a new post for your item.  <br/>
-                            You will be prompted for all necessary information. <br/>
-                        </div>
+                <div class="reusesu-table-row">
+
+                    <div class="modal-tutorial-img-2">
+                        <img src="~/img/Tutorial_NewPostButton.PNG" />
                     </div>
 
-                    <div class="reusesu-table-row">
-                        <div class="modal-tutorial-img-2">
-                            <img src="~/img/Tutorial_ItemViewLink.PNG" />
-                        </div>
-                        <div class="modal-tutorial-text">
-                            <br/>
-                            Once you have made your post you will see it in the <br/>
-                            item listing on the home page.  <strong>Click on your post title </strong><br/>
-                            to view its details and post management options. </br>
-                        </div>
+                    <div class="modal-tutorial-text">
+                        <strong> Click on New Post </strong>to create a new post for your item.  <br/>
+                        You will be prompted for all necessary information. <br/>
                     </div>
 
-                    <div class="reusesu-table-row">
-                        <div class="modal-tutorial-img-2">
-                            <img src="~/img/Tutorial_EditDeletePostButtons.PNG" />
-                        </div>
-                        <div class="modal-tutorial-text">
-                            Once you have opened your post details, you will see post <br/>
-                            management options in the <strong>left sidebar</strong>.  This includes the <br/>
-                            options to <strong>edit your post</strong> and <strong>delete your post.</strong> <br/>
-                        </div>
+                </div>
+
+                <div class="reusesu-table-row">
+
+                    <div class="modal-tutorial-img-2">
+                        <img src="~/img/Tutorial_ItemViewLink.PNG" />
                     </div>
+
+                    <div class="modal-tutorial-text">
+                        <br/>
+                        Once you have made your post you will see it in the <br/>
+                        item listing on the home page.  <strong>Click on your post title </strong><br/>
+                        to view its details and post management options. </br>
+                    </div>
+
+                </div>
+
+                <div class="reusesu-table-row">
+
+                    <div class="modal-tutorial-img-2">
+                        <img src="~/img/Tutorial_EditDeletePostButtons.PNG" />
+                    </div>
+
+                    <div class="modal-tutorial-text">
+                        Once you have opened your post details, you will see post <br/>
+                        management options in the <strong>left sidebar</strong>.  This includes the <br/>
+                        options to <strong>edit your post</strong> and <strong>delete your post.</strong> <br/>
+                    </div>
+
+                </div>
 
                
-
+                <!-- Buttons: Next and Skip-->
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
                         <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
                                 data-dismiss="modal" data-toggle="modal" data-target="#tutorial-modal-3b">
                             Next
                         </button><br />
                     </div>
+
                 </div>
 
                 <div class="modal-link" data-dismiss="modal">
                     <a href="">Skip and Go Directly to Site</a>
                 </div>
+
                 <br />
 
             </div>
+
             <div class="modal-footer"></div>
+
         </div>
+
     </div>
 </div>
 
 <!-- Tutorial Modal: Finding & Viewing Items-->
 <div id="tutorial-modal-3b" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+
+            <!-- Decorative header -->
             <div class="modal-header">
             </div>
             <div class="modal-body">
+
+                <!-- Body, pictures next to descriptive text -->
                 <div class="reuse-mod-body">
                     Finding & Viewing Posts<br />
                 </div>
 
                 <div class="reusesu-table-row">
+
                     <div class="modal-tutorial-img-3">
                         <img src="~/img/Tutorial_SearchBar.PNG" />
                     </div>
+
                     <div class="modal-tutorial-text-3">
-                        Use the <strong> search bar </strong>, located at the top of <br/>
+                        Use the <strong> search bar </strong>, located at the top of <br />
                         the page, to look for items by <strong>keyword.</strong>  <br />
                     </div>
+
                 </div>
 
                 <div class="reusesu-table-row">
+
                     <div class="modal-tutorial-img-3">
                         <img src="~/img/Tutorial_Filters.PNG" />
                     </div>
+
                     <div class="modal-tutorial-text-3">
                         <br />
                         Use the checkboxes on the sidebar to <strong>filter items by category.</strong> <br />
@@ -389,12 +634,15 @@
                         and choose whether or not to see your own posts with</br>
                         <strong>Include My Posts.</strong>
                     </div>
+
                 </div>
 
                 <div class="reusesu-table-row">
+
                     <div class="modal-tutorial-img-3">
                         <img src="~/img/Tutorial_EmailFlagButtons.PNG" />
                     </div>
+
                     <div class="modal-tutorial-text-3">
                         When viewing the details of another person's post, you can find <br />
                         post actions in the <strong>left sidebar</strong>.  This includes the <br />
@@ -403,18 +651,20 @@
                         <strong>flag post</strong> option. You can click on "How does flagging<br />
                         work?" to learn more about the flagging process.<br />
                     </div>
+
                 </div>
 
 
 
-
+                <!-- Buttons, Next and Skip -->
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
-                        <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
-                                data-dismiss="modal" data-toggle="modal" data-target="#tutorial-modal-4">
+                        <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button" data-dismiss="modal" data-toggle="modal" data-target="#tutorial-modal-4">
                             Next
                         </button><br />
                     </div>
+
                 </div>
 
                 <div class="modal-link" data-dismiss="modal">
@@ -424,7 +674,9 @@
 
 
             </div>
+
             <div class="modal-footer"></div>
+
         </div>
     </div>
 </div>
@@ -432,33 +684,48 @@
 
 <!-- Tutorial Modal: End Tutorial-->
 <div id="tutorial-modal-4" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
+
+            <!-- Decorative Header -->
             <div class="modal-header">
             </div>
+
+            <!-- Body, Tutorial Finish -->
             <div class="modal-body">
 
                 <div class="reuse-mod-body">
                     Thank you! &nbsp;<br />
                     
                 </div>
+
                 <br />
+
                 <div class="modal-body-small-it">
                     You are now ready to use the site!  Click on "Finish Tutorial" to be directed to the home page.
                 </div>
+
                 <br />
                 <br />
+
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
                         <button type="button" style="font-size:x-large;" class="btn btn-outline-dark modal-button"
                                 data-dismiss="modal" data-toggle="modal" data-target="#">
                             Finish Tutorial
                         </button><br />
                     </div>
+
                 </div>
 
             </div>
+
+            <!-- Decorative footer -->
             <div class="modal-footer"></div>
+
         </div>
     </div>
 </div>
