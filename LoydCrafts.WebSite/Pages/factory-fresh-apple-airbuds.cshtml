@@ -13,27 +13,54 @@
     <!-- A container for the sidebar information-->
     <div class="sidebar">
 
-        <!-- The upper box of the left sidebar -->
+        <!-- The upper box of the left sidebar - main site navigation buttons -->
         <div class="sidebar-upper">
 
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Home</button><br />
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">About</button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">Usage Guidelines</button>
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                Home
+            </button>
+
+            <br />
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                About
+            </button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                Usage Guidelines
+            </button>
+
             <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#tutModal">
                 Tutorial
             </button>
-            <button type="button" class="btn btn-outline-dark sidebar-upper-button">My Posts</button>
+
+            <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                My Posts
+            </button>
 
         </div>
 
-        <!-- style on the sidebar-lower div is temporary-->
+        <!-- Unique lower sidebar for this section -->
         <div class="sidebar-lower" style="width: 210px; height:300px; float: left; margin: 0px;">
+
             <p class="lower-sidebar-text">For this post:</p>
+
             <div class="sidebar-lower-buttons">
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button">Email Poster</button>
-                <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">Flag</button>
-                <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">|?| How does flagging work?</p>
+
+                <button type="button" class="btn btn-outline-dark sidebar-upper-button">
+                    Email Poster
+                </button>
+
+                <button type="button" class="btn btn-outline-dark sidebar-upper-button" data-toggle="modal" data-target="#flagging-modal">
+                    Flag
+                </button>
+
+                <p class="help-text" data-toggle="modal" data-target="#flagging-help-text">
+                    ?  How does flagging work?
+                </p>
+
             </div>
+
         </div>
 
     </div>
@@ -41,19 +68,43 @@
     <div class="full-listing">
 
         <div class="full-listing-header">
-            <h4 style="float: left;">Factory Fresh Apple Earbuds, get them quick!</h4>
-            <p style="float: right; margin-top: 0px" class="listing-item-date-person">May 1st, 2020<br>by Darren Herstad</p>
+
+            <h4 style="float: left;">
+                Factory Fresh Apple Earbuds, get them quick!
+            </h4>
+
+            <p style="float: right; margin-top: 0px" class="listing-item-date-person">
+                May 1st, 2020<br>by Darren Herstad
+            </p>
+
         </div>
 
         <div class="full-listing-body">
-            <p class="listing-body-text"><b>Description:</b><br />Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! Never before worn (by a human) earbuds are exactly what you need this summer to liven up your day. My dudes and dudettes, never before has an item been more deserving of your attention than this. You have a chance to buy a musical experience the likes of which you've never seen before! <br /> 75$ OBO.</p>
+
+            <p class="listing-body-text">
+                
+                <b>
+                    Description:
+                </b>
+
+                <br />
+                    Apple Earbuds available, barely used at all. This is a real sweet deal my fellow Seattle University students! Listen to sweet jams as if you were in the mosh pit! Never before worn (by a human) earbuds are exactly what you need this summer to liven up your day. My dudes and dudettes, never before has an item been more deserving of your attention than this. You have a chance to buy a musical experience the likes of which you've never seen before! <br /> 75$ OBO.
+                </p>
             
-            <p class="listing-body-text"><b>Logistics:</b><br />Email me back. I'm in Campion, free Thursdays after 2 and Mondays between 10 and 2pm. But any day sort of works</p>
+                <p class="listing-body-text">
+                    <b>
+                        Logistics:
+                    </b>
+                <br />
+                    Email me back. I'm in Campion, free Thursdays after 2 and Mondays between 10 and 2pm. But any day sort of works
+                </p>
 
         </div>
 
         <div class="full-listing-gallery">
+
             <img src="~/img/Earbuds_300px.jpg" class="full-listing-image" />
+
         </div>
 
         <div class="full-listing-footer">
@@ -65,7 +116,9 @@
 
 
 <div id="flagging-modal" class="modal fade in">
+
     <div class="modal-dialog modal-lg">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
 
             <div class="modal-header">
@@ -76,50 +129,88 @@
                 <div class="reuse-mod-body">
                     Flagging: 'Factory Fresh Apple Earbuds, get them quick!'<br />
                 </div>
+
                 <br />
+
                 <div class="modal-body" style="text-align: left; padding-left: 100px;">
+
                     <h4>Are you sure you want to flag this post?</h4>
+
                     <ul>
+                        
                         <li>Flagging is effective immediately and will remove the item as soon as you flag it.</li>
+
                         <li>You should flag items if and only if they do not adhere to the <em>posting policy</em></li>
+
                         <li>Flagging is anonymous and the poster will not know who flagged their item.</li>
+
                     </ul>
 
-                        <h4>Why are you flagging?</h4>
-                        <div class="checkbox"><input type="checkbox" />&nbsp;The item has been posted multiple times</div>
-                        <div class="checkbox"><input type="checkbox" />&nbsp;The user is requesting payment for this item</div>
-                        <div class="checkbox"><input type="checkbox" />&nbsp;The item is no longer available</div>
-                        <div class="checkbox"><input type="checkbox" />&nbsp;The item is inappropriate or explicit</div>
-                        <div class="checkbox"><input type="checkbox" />&nbsp;The item violates the <em>posting policy</em> in another way</div>
+                    <h4>Why are you flagging?</h4>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;The item has been posted multiple times
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;The user is requesting payment for this item
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;The item is no longer available
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;The item is inappropriate or explicit
+                    </div>
+
+                    <div class="checkbox"><input type="checkbox" />
+                        &nbsp;The item violates the <em>posting policy</em> in another way
+                    </div>
 
                 </div>
+
                 <br />
                 <br />
+
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
+
                         <a style="font-size:large;" class="btn btn-outline-dark modal-button" asp-area="" asp-page="/home">
                             Cancel
                         </a>
+
                         <br />
                     </div>
+
                     <div class="modal-button-container">
+
                         <a style="font-size:large;" class="btn btn-outline-dark modal-button" asp-area="" asp-page="/home">
                             Confirm Flagging
                         </a>
+
                         <br />
                     </div>
+
                 </div>
 
                 <div class="modal-footer"></div>
+
             </div>
+
         </div>
+
     </div>
+
 </div>
 
 
 <!-- FLAGGING CONFIRMATION MODAL -->
 <div id="flagging-help-text" class="modal fade in">
+
     <div class="modal-dialog">
+
         <div class="modal-content" style="border-radius: 20px; background-color: #d7d7d7;">
 
             <!-- Decorative header -->
@@ -129,26 +220,37 @@
 
                 <!-- Title, despite the description -->
                 <div class="reuse-mod-body">
+
                     <em>Questions about flagging?</em>
+
                 </div>
+
                 <br />
                 <!-- body -->
                 <div class="modal-body">
+
                     <p><b>What is flagging:</b> Flagging something will remove the item from view as soon as you flag it.</p>
+
                     <p><b>When to flag:</b> You should flag items if and only if it does not adhere to the <em>posting policy</em>.</p>
+
                     <p><b>Flagging is anonymous:</b> The poster will not know who flagged their item. Only site admins can.</p>
+
                 </div>
 
                 <br />
 
                 <!-- Continue button -->
                 <div class="modal-buttons">
+
                     <div class="modal-button-container">
+
                         <button type="button" style="font-size:large;" class="btn btn-outline-dark modal-button"
                                 data-dismiss="modal">
                             Done
                         </button><br />
+
                     </div>
+
                 </div>
 
                 <br />
@@ -158,5 +260,7 @@
             <div class="modal-footer"></div>
 
         </div>
+
     </div>
+
 </div>
