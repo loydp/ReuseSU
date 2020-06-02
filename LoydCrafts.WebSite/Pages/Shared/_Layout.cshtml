@@ -10,62 +10,99 @@
 </head>
 <body>
 
+    <!-- All html in this file is the basic structure of the site, including the header, utility header, and footer -->
     <header class="header-css">
-        <!-- Our custom built header class. -->
 
+        <!-- Header -->
         <div class="reuse-header">
+
+            <!-- Logo -->
             <a href="../Index">
                 <div class="header-image">
-                    <img src="https://www.seattleu.edu/media/marketing-communications/branding/spirit-marks/marcom-spirit-marks/SeattleUMain-red-background.png"
-                         height="65">
+                    <img src="https://www.seattleu.edu/media/marketing-communications/branding/spirit-marks/marcom-spirit-marks/SeattleUMain-red-background.png" height="65">
                 </div>
             </a>
+
+            <!-- Title -->
             <a href="../Index" style="color:black;">
                 <div class="header-title">
                     ReuseSU
                 </div>
             </a>
+
+            <!-- Motto -->
             <div class="header-motto">
                 Simple, sustainable sharing
                 <a class="btn btn-outline-dark header-logout" asp-area="" asp-page="/browsingStudent">Logout</a>
             </div>
         </div>
-
     </header>
+
+    <!-- Generic container -->
     <div class="container">
-        <!-- Contains the New Post and Search functionality -->
+
+        <!-- Utility bar contains the New Post and Search functionality -->
         <div class="utility-bar">
+
+            <!-- New post button-->
             <div class="new-post">
                 <a href="../create-post" style="color: black; text-decoration: none;">
+                    
                     <div class="new-post-plus">
                         +
                     </div>
+
                     <div class="new-post-afterplus">
                         New Post
                     </div>
+
                 </a>
             </div>
+
+            <!-- Search -->
             <div class="search-bar">
+
+                <!-- Order By -->
                 <select name="SortBy" id="SortBy" class="sort-by">
-                    <option value="newest">Newest</option>
-                    <option value="oldest">Oldest</option>
-                    <option value="user">User A-Z</option>
-                    <option value="itemTitle">Item Title</option>
+                    
+                    <option value="newest">
+                        Newest
+                    </option>
+
+                    <option value="oldest">
+                        Oldest
+                    </option>
+                    
+                    <option value="user">
+                        User A-Z
+                    </option>
+                    
+                    <option value="itemTitle">
+                        Item Title
+                    </option>
+                
                 </select>
+                
+                <!-- Search button -->
                 <button type="submit" class="search-button">Search</button>
                 <input type="text" placeholder="Search.." name="search" class="search-input">
+
             </div>
         </div>
     </div>
 
     @RenderBody()
+    
     <!-- This is the footer, usually the area for copyright and maybe a little navigation -->
     <footer class="border-top footer text-muted">
+
         <div class="container">
             &copy; 2020 - ReuseSU.WebSite - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
+    
     </footer>
 
+    <!-- Javascript for modals -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
@@ -74,26 +111,3 @@
 </body>
 </html>
 
-
-<!-- All stuff that follows is a result of modal divs -->
-
-<!-- This is the tutorial-1 modal div -->
-<div class="modal" id="tutModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-
-            <div class="modal-header">
-                <h4 class="modal-title">Tutorial</h4>
-            </div>
-
-            <div class="modal-body">
-                Tutorial information.<br /><br />Thing.
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">End tutorial</button>
-            </div>
-
-        </div>
-    </div>
-</div>
