@@ -9,15 +9,31 @@ using Microsoft.Extensions.Logging;
 
 namespace ReuseSU.WebSite
 {
+    /// <summary>
+    /// The class that supports the program that will be run to support the website
+    /// </summary>
     public class Program
     {
-        // Main method of the class
+        /// <summary>
+        /// Main method of the class that will run first
+        /// </summary>
+        /// <param name="args">
+        /// Any number of arguments are passed in through the args array
+        /// </param>
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
 
-        // Creates a default host that will use the Startup class to start the website
+        /// <summary>
+        /// Creates a default host that will use the Startup class to start the website
+        /// </summary>
+        /// <param name="args">
+        /// Any number of arguments will be passed in through the args array
+        /// </param>
+        /// <returns>
+        /// Returns an IHostBuilder type containing the created host builder
+        /// </returns>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
