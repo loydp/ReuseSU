@@ -361,8 +361,10 @@
 }
 
 .full-listing-image {
-    margin: 10px auto 10px;
+    margin: auto;
     display: block;
+    height: 285px;
+    width: 285px;
 }
 
 .listing-body-text {
