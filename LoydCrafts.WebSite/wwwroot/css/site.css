@@ -441,9 +441,10 @@
 }
 
 .create-post-checkbox {
-    transform: scale(1.2);
+    padding-left: 150px;
     font-size: 20px;
-    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .create-post-photo-section {
