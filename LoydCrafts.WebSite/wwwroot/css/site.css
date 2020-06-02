@@ -383,15 +383,23 @@
 }
 
 .listing-item-facultystaff {
+    font-size: small;
+    font-style: italic;
+    text-size-adjust: 9pt;
+    padding-right: 15px;
     float: right;
-    color: #aa0000;
-    text-shadow: 0 0 4px antiquewhite, 0 0 5px #aa0000;
+    color: #552222;
+    text-shadow: 0 0 1px antiquewhite, 0 0 1px #aa0000;
 }
 
 .listing-item-student {
+    font-size: small;
+    font-style: italic;
+    text-size-adjust: 9pt;
+    padding-right: 15px;
     float: right;
-    color: #0000aa;
-    text-shadow: 0 0 4px antiquewhite, 0 0 5px #0000aa;
+    color: #222255;
+    text-shadow: 0 0 1px antiquewhite, 0 0 1px #0000aa;
 }
 
 
